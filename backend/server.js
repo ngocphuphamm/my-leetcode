@@ -39,7 +39,11 @@ app.patch('/api/problems/:id/toggle', async (req, res) => {
     const problems = await readProblems();
     const updatedProblems = problems.map(problem => {
       if (problem._id === req.params.id) {
-        return { ...problem, done: !problem.done };
+        return { 
+          ...problem, 
+          done: !problem.done,
+          completedAt: !problem.done ? new Date().toISOString() : null
+        };
       }
       return problem;
     });

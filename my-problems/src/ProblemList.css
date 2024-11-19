@@ -67,3 +67,11 @@
 .status-btn.pending:hover {
   background-color: #c82333;
 }
+
+.recently-completed {
+  background-color: rgba(144, 238, 144, 0.2);
+}
+
+.recently-completed td {
+  font-weight: bold;
+}
