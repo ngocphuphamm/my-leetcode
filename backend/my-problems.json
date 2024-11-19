@@ -257,7 +257,8 @@
         "alias": "swiggy"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T09:00:57.013Z"
   },
   {
     "_id": "63a137568e0a96c7af5fd7dc",
@@ -3709,7 +3710,8 @@
         "percentage": "8.87295%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T09:00:23.778Z"
   },
   {
     "_id": "63a1375f8e0a96c7af5fd852",
@@ -3792,7 +3794,8 @@
         "percentage": "4.9252%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T08:59:35.830Z"
   },
   {
     "_id": "63a1375b8e0a96c7af5fd819",
@@ -4319,7 +4322,8 @@
         "percentage": "1.73362%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T08:59:32.041Z"
   },
   {
     "_id": "63a1375f8e0a96c7af5fd850",
@@ -4860,7 +4864,8 @@
         "percentage": "1.38429%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T08:59:23.098Z"
   },
   {
     "_id": "63a1375b8e0a96c7af5fd81d",
@@ -16383,7 +16388,8 @@
         "percentage": "3.85473%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T06:43:58.452Z"
   },
   {
     "_id": "63a137848e0a96c7af5fd9cb",
@@ -17643,7 +17649,8 @@
         "percentage": "68.557%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T07:30:58.492Z"
   },
   {
     "_id": "63a1378f8e0a96c7af5fda17",
@@ -18120,7 +18127,8 @@
         "percentage": "20.165%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-19T08:55:29.900Z"
   },
   {
     "_id": "63a137918e0a96c7af5fda23",
