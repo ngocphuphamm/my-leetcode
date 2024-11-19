@@ -6,7 +6,7 @@ cd backend && node server.js &
 
 # Start frontend app
 echo "Starting frontend application..."
-cd my-problems-app && npm run start &
+cd my-problems && npm run start &
 
 # Wait for all background processes
 wait
