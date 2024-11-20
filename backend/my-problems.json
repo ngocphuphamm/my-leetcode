@@ -18674,7 +18674,8 @@
         "percentage": "52.9478%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-20T15:52:56.060Z"
   },
   {
     "_id": "63a137958e0a96c7af5fda33",
@@ -18726,7 +18727,8 @@
         "percentage": "23.622%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-20T16:54:28.527Z"
   },
   {
     "_id": "63a137cb8e0a96c7af5fdab9",
