@@ -17400,7 +17400,8 @@
         "percentage": "16.1549%;"
       }
     ],
-    "done": true
+    "done": false,
+    "completedAt": null
   },
   {
     "_id": "63a1378d8e0a96c7af5fda11",
