@@ -19488,7 +19488,8 @@
         "percentage": "15.084%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T14:55:28.865Z"
   },
   {
     "_id": "63a137db8e0a96c7af5fdafd",
@@ -19640,7 +19641,8 @@
         "alias": "apple"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T17:47:32.500Z"
   },
   {
     "_id": "63a137998e0a96c7af5fda44",
@@ -19812,7 +19814,8 @@
         "alias": "bloomberg"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T18:22:57.888Z"
   },
   {
     "_id": "63a137a78e0a96c7af5fda55",
