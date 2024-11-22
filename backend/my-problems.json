@@ -19067,7 +19067,8 @@
         "alias": "microsoft"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T04:51:02.837Z"
   },
   {
     "_id": "63a137d88e0a96c7af5fdaf5",
@@ -19132,7 +19133,8 @@
         "percentage": "4.661%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T07:03:57.226Z"
   },
   {
     "_id": "63a137908e0a96c7af5fda1f",
@@ -19346,7 +19348,8 @@
         "percentage": "100%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T08:05:40.001Z"
   },
   {
     "_id": "63a137ab8e0a96c7af5fda6e",
@@ -19418,7 +19421,8 @@
         "percentage": "15.5502%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-22T09:51:33.325Z"
   },
   {
     "_id": "63a137af8e0a96c7af5fda7d",
