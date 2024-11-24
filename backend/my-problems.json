@@ -20830,7 +20830,8 @@
         "percentage": "6.96231%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T14:14:53.737Z"
   },
   {
     "_id": "63a137c58e0a96c7af5fdaa5",
