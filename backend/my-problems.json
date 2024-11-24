@@ -20318,7 +20318,8 @@
         "alias": "bloomberg"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T10:18:51.555Z"
   },
   {
     "_id": "63a137cc8e0a96c7af5fdabc",
