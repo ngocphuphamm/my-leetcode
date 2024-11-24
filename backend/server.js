@@ -3,6 +3,7 @@ const express = require('express');
 const fs = require('fs/promises');
 const path = require('path');
 const cors = require('cors');
+const { exec } = require('child_process');
 
 const app = express();
 app.use(cors());
@@ -19,6 +20,23 @@ const readProblems = async () => {
 // Write problems to JSON file
 const writeProblems = async (problems) => {
   await fs.writeFile(PROBLEMS_FILE, JSON.stringify(problems, null, 2));
+};
+
+// Helper function for git operations
+const gitCommitAndPush = () => {
+  return new Promise((resolve, reject) => {
+    exec('git add . && git commit -m "update" && git push', {
+      cwd: path.join(__dirname, '..')  // Execute in parent directory
+    }, (error, stdout, stderr) => {
+      if (error) {
+        console.error(`Git error: ${error}`);
+        reject(error);
+        return;
+      }
+      console.log(`Git output: ${stdout}`);
+      resolve(stdout);
+    });
+  });
 };
 
 // Get all problems
@@ -49,6 +67,7 @@ app.patch('/api/problems/:id/toggle', async (req, res) => {
     });
     
     await writeProblems(updatedProblems);
+    await gitCommitAndPush();
     res.json(updatedProblems.find(p => p._id === req.params.id));
   } catch (error) {
     res.status(400).json({ message: error.message });
@@ -71,6 +90,7 @@ app.patch('/api/problems/:id/redflag', async (req, res) => {
     });
     
     await writeProblems(updatedProblems);
+    await gitCommitAndPush();
     res.json(updatedProblems.find(p => p._id === req.params.id));
   } catch (error) {
     res.status(400).json({ message: error.message });
