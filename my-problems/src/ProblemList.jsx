@@ -8,6 +8,17 @@ const API_URL = 'http://localhost:5000/api';
 const ProblemsList = () => {
   const [problems, setProblems] = React.useState([]);
   const [recentlyCompleted, setRecentlyCompleted] = React.useState({});
+  const [isLoading, setIsLoading] = React.useState(true);
+  const [error, setError] = React.useState(null);
+
+  // Debounce function for API calls
+  const debounce = (func, wait) => {
+    let timeout;
+    return (...args) => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  };
 
   React.useEffect(() => {
     fetchProblems();
@@ -26,6 +37,7 @@ const ProblemsList = () => {
 
   const fetchProblems = async () => {
     try {
+      setIsLoading(true);
       const response = await axios.get(`${API_URL}/problems`);
       setProblems(response.data);
       
@@ -40,31 +52,47 @@ const ProblemsList = () => {
       localStorage.setItem('recentlyCompleted', JSON.stringify(newRecentlyCompleted));
       setRecentlyCompleted(newRecentlyCompleted);
     } catch (error) {
+      setError('Failed to fetch problems');
       console.error('Error fetching problems:', error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
   const toggleProblemStatus = async (id) => {
+    // Optimistic update
+    const updatedProblems = problems.map(problem =>
+      problem._id === id ? { ...problem, done: !problem.done } : problem
+    );
+    setProblems(updatedProblems);
+
     try {
-      const response = await axios.patch(`${API_URL}/problems/${id}/toggle`);
-      setProblems(problems.map(problem => 
-        problem._id === id ? response.data : problem
-      ));
+      await axios.patch(`${API_URL}/problems/${id}/toggle`);
     } catch (error) {
+      // Revert on error
+      setProblems(problems);
       console.error('Error toggling problem status:', error);
     }
   };
 
-  const toggleRedFlag = async (id) => {
+  const toggleRedFlag = debounce(async (id) => {
+    // Optimistic update
+    const updatedProblems = problems.map(problem =>
+      problem._id === id ? { ...problem, redFlag: !problem.redFlag } : problem
+    );
+    setProblems(updatedProblems);
+
     try {
-      const response = await axios.patch(`${API_URL}/problems/${id}/redflag`);
-      setProblems(problems.map(problem => 
-        problem._id === id ? response.data : problem
-      ));
+      await axios.patch(`${API_URL}/problems/${id}/redflag`);
     } catch (error) {
+      // Revert on error
+      setProblems(problems);
       console.error('Error toggling red flag status:', error);
     }
-  };
+  }, 300);
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error}</div>;
 
   return (
     <div className="problems-container">
