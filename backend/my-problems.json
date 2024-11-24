@@ -19884,7 +19884,8 @@
         "percentage": "60.7736%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-23T01:22:41.304Z"
   },
   {
     "_id": "63a137a98e0a96c7af5fda5b",
@@ -19923,7 +19924,8 @@
         "alias": "bloomberg"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-23T02:03:29.063Z"
   },
   {
     "_id": "63a137ab8e0a96c7af5fda6a",
