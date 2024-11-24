@@ -42,7 +42,8 @@
         "percentage": "22.9549%;"
       }
     ],
-    "done": false
+    "done": false,
+    "redFlag": false
   },
   {
     "_id": "63a137588e0a96c7af5fd7f8",
@@ -20019,7 +20020,8 @@
         "percentage": "31.357%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T10:09:32.976Z"
   },
   {
     "_id": "63a137d18e0a96c7af5fdade",
@@ -20072,7 +20074,8 @@
         "alias": "facebook"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T10:09:37.237Z"
   },
   {
     "_id": "63a137d28e0a96c7af5fdae2",
@@ -20093,7 +20096,8 @@
         "alias": "facebook"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T10:09:39.331Z"
   },
   {
     "_id": "63a137dc8e0a96c7af5fdb00",

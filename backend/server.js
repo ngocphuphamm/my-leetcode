@@ -55,4 +55,26 @@ app.patch('/api/problems/:id/toggle', async (req, res) => {
   }
 });
 
+// Toggle red flag status
+app.patch('/api/problems/:id/redflag', async (req, res) => {
+  try {
+    console.log('Toggling red flag status...');
+    const problems = await readProblems();
+    const updatedProblems = problems.map(problem => {
+      if (problem._id === req.params.id) {
+        return { 
+          ...problem, 
+          redFlag: !problem.redFlag
+        };
+      }
+      return problem;
+    });
+    
+    await writeProblems(updatedProblems);
+    res.json(updatedProblems.find(p => p._id === req.params.id));
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
 app.listen(5000, () => console.log('Server running on port 5000'));

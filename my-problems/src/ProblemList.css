@@ -75,3 +75,29 @@
 .recently-completed td {
   font-weight: bold;
 }
+
+.red-flagged {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.red-flagged td {
+  color: #dc3545;
+}
+
+.flag-btn {
+  margin-left: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.flag-btn:hover {
+  transform: scale(1.1);
+}
+
+.flag-btn.flagged {
+  background-color: rgba(255, 0, 0, 0.1);
+}

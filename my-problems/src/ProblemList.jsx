@@ -55,6 +55,17 @@ const ProblemsList = () => {
     }
   };
 
+  const toggleRedFlag = async (id) => {
+    try {
+      const response = await axios.patch(`${API_URL}/problems/${id}/redflag`);
+      setProblems(problems.map(problem => 
+        problem._id === id ? response.data : problem
+      ));
+    } catch (error) {
+      console.error('Error toggling red flag status:', error);
+    }
+  };
+
   return (
     <div className="problems-container">
       <h2>Problems List</h2>
@@ -73,7 +84,9 @@ const ProblemsList = () => {
         </thead>
         <tbody>
           {problems.map((problem, index) => (
-            <tr key={problem._id} className={isCompletedRecently(problem) ? 'recently-completed' : ''}>
+            <tr key={problem._id} 
+                className={`${isCompletedRecently(problem) ? 'recently-completed' : ''} 
+                           ${problem.redFlag ? 'red-flagged' : ''}`}>
               <td>{index + 1}</td>
               <td>{problem.name}</td>
               <td>{problem.level}</td>
@@ -87,6 +100,12 @@ const ProblemsList = () => {
                   className={`status-btn ${problem.done ? 'done' : 'pending'}`}
                 >
                   {problem.done ? 'Mark Undone' : 'Mark Done'}
+                </button>
+                <button 
+                  onClick={() => toggleRedFlag(problem._id)}
+                  className={`flag-btn ${problem.redFlag ? 'flagged' : ''}`}
+                >
+                  🚩
                 </button>
               </td>
             </tr>
