@@ -20338,7 +20338,8 @@
         "alias": "facebook"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-24T11:16:18.266Z"
   },
   {
     "_id": "63a137d08e0a96c7af5fdadb",
