@@ -1,83 +1,49 @@
-import java.util.*;
+2260. Minimum Consecutive Cards to Pick Up
+Medium
+Topics
+Companies
+Hint
+You are given an integer array cards where cards[i] represents the value of the ith card. A pair of cards are matching if the cards have the same value.
+
+Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return -1.
+
+ 
+
+Example 1:
+                0 1 2 3 
+Input: cards = [4,3,1,2,0,2,7,7]
+Output: 4
+Explanation: We can pick up the cards [3,4,2,3] which contain a matching pair of cards with value 3. Note that picking up the cards [4,2,3,4] is also optimal.
+Example 2:
+
+Input: cards = [1,0,5,3]
+Output: -1
+Explanation: There is no way to pick up a set of consecutive cards that contain a pair of matching cards.
+ 
+
+Constraints:
+
+1 <= cards.length <= 105
+0 <= cards[i] <= 106
+
 
 class Solution {
-    public int minimumTeachings(int n, int[][] languages, int[][] friendships) {
-        // Let m = number of users, k = average languages per user
-        // Time: O(m * k) for this section
-        Map<Integer, Set<Integer>> userLanguages = new HashMap<>();
-        for (int i = 0; i < languages.length; i++) {
-            userLanguages.put(i + 1, new HashSet<>());
-            for (int lang : languages[i]) {
-                userLanguages.get(i + 1).add(lang);
+    public int minimumCardPickup(int[] cards) {
+        HashMap<Integer, Integer> lastSeen = new HashMap<Integer, Integer>();
+        int result = Integer.MAX_VALUE;
+        for(int i = 0; i < cards.length; i++){
+            int card = cards[i];
+            int idx = lastSeen.getOrDefault(card, -1);
+            if(idx != -1){
+                result = Math.min(result, i - idx + 1);
             }
+            lastSeen.put(card, i);
         }
-
-        // Let f = number of friendships
-        // Time: O(f * k) for friendship processing
-        Set<Integer> usersNeedingHelp = new HashSet<>();
-        for (int[] friendship : friendships) {
-            int userA = friendship[0];
-            int userB = friendship[1];
-
-            // Check if users have any common language
-            Set<Integer> languagesA = userLanguages.get(userA);
-            Set<Integer> languagesB = userLanguages.get(userB);
-            boolean canCommunicate = false;
-            for (int lang : languagesA) {
-                if (languagesB.contains(lang)) {
-                    canCommunicate = true;
-                    break;
-                }
-            }
-
-            // Add users to the set if they cannot communicate
-            if (!canCommunicate) {
-                usersNeedingHelp.add(userA);
-                usersNeedingHelp.add(userB);
-            }
-        }
-
-        // Let u = number of users needing help
-        // Time: O(u * k) for frequency counting
-        Map<Integer, Integer> languageFrequency = new HashMap<>();
-        for (int user : usersNeedingHelp) {
-            for (int lang : userLanguages.get(user)) {
-                languageFrequency.put(lang, languageFrequency.getOrDefault(lang, 0) + 1);
-            }
-        }
-
-        // Time: O(n) where n is number of languages
-        // Find max frequency and return result
-        int maxUsersWithOneLanguage = 0;
-        for (int freq : languageFrequency.values()) {
-            maxUsersWithOneLanguage = Math.max(maxUsersWithOneLanguage, freq);
-        }
-
-        // Calculate the minimum number of users to teach
-        int minUsersToTeach = usersNeedingHelp.size() - maxUsersWithOneLanguage;
-        return minUsersToTeach;
+        return result;
     }
 }
 
 
-/*
+ 
 
-Total Time Complexity: O(m*k + f*k + u*k + n) where:
 
-m = number of users
-k = average number of languages per user
-f = number of friendships
-u = number of users needing help (≤ m)
-n = total number of languages
-Space Complexity: O(m*k + u)
-
-O(m*k) for userLanguages map
-O(u) for usersNeedingHelp set
-O(n) for languageFrequency map
-Worst Case Scenario:
-
-When all users need to learn a new language: u = m
-When each friendship pair can't communicate: O(f) operations
-Total worst-case time complexity becomes O(m*k + f*k)
-This analysis assumes hash map/set operations are O(1) average case.
-*/
