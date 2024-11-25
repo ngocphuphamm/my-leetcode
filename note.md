@@ -1,54 +1,43 @@
 class Solution {
-    // Time Complexity: O(mk + nk + nm) where:
-    // m = length of words array
-    // n = length of queries array 
-    // k = average length of each string
-    public int[] numSmallerByFrequency(String[] queries, String[] words) {
-        HashMap<Integer, Integer> mapFreqOfWord = new HashMap<Integer, Integer>();
-        
-        // First loop: O(m*k)
-        for(int i = 0; i < words.length; i++){
-            String word = words[i];
-            int freq = getFrequency(word); // O(k) for each word
-            mapFreqOfWord.put(i, freq);    // O(1)
-        }
-        
-        int n = queries.length;
-        int[] result = new int[n];
-        
-        // Second loop: O(n*(k + m))
-        for(int i = 0; i < n; i++){
-            String query = queries[i];
-            int freqOfQuery = getFrequency(query); // O(k)
-            int count = 0;
-            // Inner loop: O(m)
-            for(int freq : mapFreqOfWord.values()){
-                if(freq > freqOfQuery){
-                    count++;
-                }
+    public int[] mostCompetitive(int[] nums, int k) {
+        Stack<Integer> stack = new Stack<Integer>();
+        for(int i =0; i < nums.length; i++){
+            int num = nums[i];
+            while(!stack.isEmpty() 
+            &&
+            stack.peek() > num
+            )
+            {
+                stack.pop();
             }
-            result[i] = count;
+            if(stack.size() == k && stack.peek() < num){
+                continue;
+            }
+            stack.add(num);
+        }
+
+        int[] result = new int[k];
+        int i = 0;
+        for(int num : stack){
+            result[i] = num;
+            i++;
         }
         return result;
     }
-
-    // Time: O(k) where k is length of word
-    // Space: O(1)
-    public int getFrequency(String word){
-        Character smallestCh = word.charAt(0);
-        // First loop: O(k)
-        for(Character ch : word.toCharArray()){
-            if(smallestCh > ch){
-                smallestCh = ch;
-            }
-        }
-        int frequency = 0;
-        // Second loop: O(k)
-        for(Character ch : word.toCharArray()){
-            if(ch == smallestCh){
-               frequency++;
-            }
-        }
-        return frequency;
-    }
 }
+      x
+0 1 2 3 4
+3 5 2 6 2
+3 5 2 
+  5 2 6
+
+4 - 1 - 1 = 2
+stack.peek() = 1
+2 + 1 = 3 == 3 
+ 
+5 - 3 = 2
+can pop maximum 2 
+
+2,4,3,3,5,4,9,6
+
+[2,3,3,4]
