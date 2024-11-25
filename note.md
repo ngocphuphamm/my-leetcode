@@ -28,22 +28,34 @@ Constraints:
 
 
 class Solution {
-    public int minimumCardPickup(int[] cards) {
-        HashMap<Integer, Integer> lastSeen = new HashMap<Integer, Integer>();
-        int result = Integer.MAX_VALUE;
-        for(int i = 0; i < cards.length; i++){
-            int card = cards[i];
-            int idx = lastSeen.getOrDefault(card, -1);
-            if(idx != -1){
-                result = Math.min(result, i - idx + 1);
+    public int[] findOriginalArray(int[] changed) {
+        int[] result = new int[changed.length / 2];
+        if(result.length == 0) return  result;
+
+        Arrays.sort(changed);
+        HashMap<Integer, Integer> mapFreq = new HashMap<Integer, Integer>();
+        for(int number : changed){
+            mapFreq.put(number, mapFreq.getOrDefault(number, 0) + 1);
+        }
+        int k = result.length - 1;
+        for(int i = changed.length - 1; i >= (changed.length / 2); i--){
+            int numberFind = changed[i] / 2; 
+            if(mapFreq.containsKey(numberFind)){
+                if(numberFind == changed[i] && mapFreq.get(numberFind) == 1){
+                return new int[changed.length / 2];
+                    
+                }
+                result[k] = numberFind; 
             }
-            lastSeen.put(card, i);
+            else{
+                return new int[changed.length / 2];
+            }
+            k--;
         }
         return result;
     }
 }
 
 
- 
 
 
