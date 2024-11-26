@@ -1,52 +1,53 @@
 class Solution {
-    public List<Integer> peopleIndexes(List<List<String>> favoriteCompanies) {
-        HashMap<String, Integer> mapFreq = new HashMap<String, Integer>();
-        HashMap<Integer, Set<String>> mapCompanies = new HashMap<Integer, Set<String>>();
-        for (int i = 0; i < favoriteCompanies.size(); i++) {
-            List<String> companies  = favoriteCompanies.get(i);
-            Set<String> setCompanies = new HashSet<String>();
-            for (String company : companies) {
-                setCompanies.add(company);
-                mapFreq.put(company, mapFreq.getOrDefault(company, 0) + 1);
-            }
-            mapCompanies.put(i, setCompanies);
+    /**
+     * Time Complexity Analysis:
+     * - Binary Search Range: O(log M) where M is max(bloomDay) - min(bloomDay)
+     * - For each binary search iteration, we call canMakeBouquet which is O(n)
+     * - Total Time Complexity: O(n * log M) where n is length of bloomDay array
+     */
+    public int minDays(int[] bloomDay, int m, int k) {
+        int left = Integer.MAX_VALUE, right = Integer.MIN_VALUE;
+        for(int day : bloomDay){
+            left = Math.min(day, left);
+            right = Math.max(day, right);
         }
-        List<Integer> result = new ArrayList<Integer>();
-        for (int i = 0; i < favoriteCompanies.size(); i++) {
-            List<String> companies = favoriteCompanies.get(i);
-            boolean isUnique = false;
-            for (String company : companies) {
-                if (mapFreq.get(company) == 1) {
-                    result.add(i);
-                    isUnique = true;
-                    break;
-                }
+        
+        while(left < right){
+            int mid = left  + (right - left ) /2;
+            if(canMakeBouquet(bloomDay, mid, m, k)){
+                right = mid;
             }
-            if(!isUnique){
-                boolean isAdd = true;
-                for(Map.Entry<Integer, Set<String>>entry : mapCompanies.entrySet()){
-                    if(entry.getKey() == i)continue;
-
-                    Set<String> setCompanies = entry.getValue();
-                    int count = 0;
-                    for(String company : companies){
-                        if(setCompanies.contains(company)){
-                            count++;
-                        }
-                    }
-                    if(setCompanies.size() > count && count == companies.size()){
-                        isAdd = false;
-                        break;
-                    }
-                }
-
-                if(isAdd){
-                    result.add(i);
-                }
+            else{
+                left = mid + 1;
             }
         }
-        return result;
+        
+        // check because in range left < right we can't meet case satisfy therefore end time left = mid + 1; 
+        // we check more. Is left valid condition 
+        return !canMakeBouquet(bloomDay, left, m, k) ? -1 : left;
+    }
+
+    /**
+     * Time Complexity: O(n)
+     * - Single pass through the bloomDay array
+     * Space Complexity: O(1)
+     * - Only uses constant extra space
+     */
+    public boolean canMakeBouquet(int[] bloomDay, int currDay,int totalBouquet, int k){
+        int flowers = 0, currBouquet = 0;
+        for(int day : bloomDay){
+            if(day <= currDay){
+                flowers++;
+                if(flowers == k){
+                    currBouquet++;
+                    flowers =0;
+                }
+            }
+            else{
+                flowers = 0;
+            }
+        }
+
+        return currBouquet >= totalBouquet;
     }
 }
-
-
