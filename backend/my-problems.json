@@ -21535,7 +21535,8 @@
         "percentage": "39.2617%;"
       }
     ],
-    "done": false
+    "done": false,
+    "redFlag": true
   },
   {
     "_id": "63a137fe8e0a96c7af5fdb7f",
