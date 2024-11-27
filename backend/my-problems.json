@@ -391,7 +391,8 @@
         "alias": "microsoft"
       }
     ],
-    "done": true
+    "done": false,
+    "completedAt": null
   },
   {
     "_id": "63a137538e0a96c7af5fd7bd",
