@@ -1,4 +1,13 @@
-
+/*
+ * Time Complexity: O(NlogN)
+ * - We iterate through the array once: O(N)
+ * - For each element, we perform heap operations (poll/offer): O(logN)
+ * - Total: O(N * logN)
+ *
+ * Space Complexity: O(N)
+ * - In worst case, we might store all apples in the priority queue
+ * - The size of heap can grow up to N, where N is the length of input array
+ */
 class Solution {
     class Apple { 
         int quantity; 
