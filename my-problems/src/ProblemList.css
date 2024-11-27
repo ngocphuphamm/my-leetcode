@@ -103,9 +103,10 @@
 }
 .completed {
   background-color: rgba(0, 255, 0, 0.1); /* Light green background */
+  font-weight: bold; /* Make text bold */
 }
 
-/* In ProblemList.css */
+/* Keep table styling */
 table {
   border-collapse: collapse;
   width: 100%;

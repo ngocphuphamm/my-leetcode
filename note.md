@@ -1,45 +1,39 @@
+
 class Solution {
-    /**
-     * Time Complexity: O(n * m * k)
-     * where n = length of dictionary
-     *       m = average length of words in dictionary
-     *       k = length of string s
-     * Space Complexity: O(1) - only uses a single String variable
-     */
-    public String findLongestWord(String s, List<String> dictionary) {
-        String currString = "";
-        for (String word : dictionary) {
-            if (isSubsequence(s, word)) {
-                if (currString.length() < word.length()) {
-                    currString = word;
-                } else {
-                    int result = currString.compareTo(word);
-                    if (currString.length() == word.length() && result >= 1) {
-                        currString = word;
-                    }
-                }
-            }
+    class Apple { 
+        int quantity; 
+        int date; 
+        Apple(int quantity, int date){
+            this.quantity = quantity; 
+            this.date = date;
         }
-        return currString;
     }
-
-    /**
-     * Time Complexity: O(k)
-     * where k = length of string a (the longer string)
-     * Space Complexity: O(1) - only uses two pointers
-     */
-    public boolean isSubsequence(String a, String b) {
-        int i = 0, j = 0;
-        while (i < a.length() && j < b.length()) {
-            while (i < a.length() && a.charAt(i) != b.charAt(j)) {
-                i++;
+    public int eatenApples(int[] apples, int[] days) {
+        PriorityQueue<Apple> minHeap = new PriorityQueue<Apple>(
+            (a,b) -> a.date - b.date
+        );
+        int n = apples.length;
+        int count = 0;
+        int i =0 ;
+        while(i < n || !minHeap.isEmpty()){
+            if(i < n && apples[i] > 0){
+                Apple apple= new Apple(apples[i], i + days[i]);
+                minHeap.add(apple);
             }
-            if(i == a.length()) return false;
+            while(!minHeap.isEmpty() && minHeap.peek().date <= i){
+                minHeap.poll();
+            }
+            
+            if(!minHeap.isEmpty()){
+                Apple apple = minHeap.poll();
+                apple.quantity -= 1;
+                if(apple.quantity > 0){
+                    minHeap.offer(apple);
+                }
+                count++;
+            }
             i++;
-            j++;
-
         }
-      
-        return j == b.length();
+        return count;
     }
 }
