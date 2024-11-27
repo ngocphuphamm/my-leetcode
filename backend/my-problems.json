@@ -22431,7 +22431,8 @@
         "alias": "linkedin"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-27T17:47:13.586Z"
   },
   {
     "_id": "63a138248e0a96c7af5fdbda",
