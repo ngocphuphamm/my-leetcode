@@ -1,42 +1,45 @@
 class Solution {
-    /*
-        Final Time Complexity: O(n + k)
-
-        n: length of input string
-        k: number of knowledge pairs
-    */
-    public String evaluate(String s, List<List<String>> knowledges) {
-        HashMap<String, String> mapWord = new HashMap<>();
-
-        for(List<String> knowledge : knowledges)
-        {
-            mapWord.put(knowledge.get(0), knowledge.get(1));   
-        }
-        
-        boolean isOpenBracket = false;
-        StringBuilder currStr = new StringBuilder();
-
-        StringBuilder result = new StringBuilder();
-        for(Character ch : s.toCharArray()){
-            if(ch == '('){
-                isOpenBracket = true;
-            }   
-            else if(ch == ')'){
-                String word = mapWord.getOrDefault(currStr.toString(), "?");
-                result.append(word);
-                isOpenBracket = false;
-                currStr = new StringBuilder();
-            }
-            else{
-                if(isOpenBracket){
-                    currStr.append(ch);
-                }
-                else{
-                    result.append(ch);
+    /**
+     * Time Complexity: O(n * m * k)
+     * where n = length of dictionary
+     *       m = average length of words in dictionary
+     *       k = length of string s
+     * Space Complexity: O(1) - only uses a single String variable
+     */
+    public String findLongestWord(String s, List<String> dictionary) {
+        String currString = "";
+        for (String word : dictionary) {
+            if (isSubsequence(s, word)) {
+                if (currString.length() < word.length()) {
+                    currString = word;
+                } else {
+                    int result = currString.compareTo(word);
+                    if (currString.length() == word.length() && result >= 1) {
+                        currString = word;
+                    }
                 }
             }
         }
+        return currString;
+    }
 
-        return result.toString();
+    /**
+     * Time Complexity: O(k)
+     * where k = length of string a (the longer string)
+     * Space Complexity: O(1) - only uses two pointers
+     */
+    public boolean isSubsequence(String a, String b) {
+        int i = 0, j = 0;
+        while (i < a.length() && j < b.length()) {
+            while (i < a.length() && a.charAt(i) != b.charAt(j)) {
+                i++;
+            }
+            if(i == a.length()) return false;
+            i++;
+            j++;
+
+        }
+      
+        return j == b.length();
     }
 }
