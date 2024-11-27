@@ -22411,7 +22411,8 @@
         "percentage": "100%;"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-27T17:32:35.962Z"
   },
   {
     "_id": "63a138218e0a96c7af5fdbd5",
