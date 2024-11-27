@@ -40,7 +40,7 @@ const ProblemsList = () => {
       setIsLoading(true);
       const response = await axios.get(`${API_URL}/problems`);
       setProblems(response.data);
-      
+
       // Update recently completed problems
       const newRecentlyCompleted = {};
       response.data.forEach(problem => {
@@ -48,7 +48,7 @@ const ProblemsList = () => {
           newRecentlyCompleted[problem._id] = new Date(problem.completedAt).toDateString();
         }
       });
-      
+
       localStorage.setItem('recentlyCompleted', JSON.stringify(newRecentlyCompleted));
       setRecentlyCompleted(newRecentlyCompleted);
     } catch (error) {
@@ -112,9 +112,12 @@ const ProblemsList = () => {
         </thead>
         <tbody>
           {problems.map((problem, index) => (
-            <tr key={problem._id} 
-                className={`${isCompletedRecently(problem) ? 'recently-completed' : ''} 
-                           ${problem.redFlag ? 'red-flagged' : ''}`}>
+            <tr key={problem._id}
+              className={`
+        ${problem.done ? 'completed' : ''}
+        ${isCompletedRecently(problem) ? 'recently-completed' : ''} 
+        ${problem.redFlag ? 'red-flagged' : ''}
+      `}>
               <td>{index + 1}</td>
               <td>{problem.name}</td>
               <td>{problem.level}</td>
@@ -123,13 +126,13 @@ const ProblemsList = () => {
               <td>{problem.done ? '✅' : '❌'}</td>
               <td>{problem.completedAt ? new Date(problem.completedAt).toLocaleDateString() : '-'}</td>
               <td>
-                <button 
+                <button
                   onClick={() => toggleProblemStatus(problem._id)}
                   className={`status-btn ${problem.done ? 'done' : 'pending'}`}
                 >
                   {problem.done ? 'Mark Undone' : 'Mark Done'}
                 </button>
-                <button 
+                <button
                   onClick={() => toggleRedFlag(problem._id)}
                   className={`flag-btn ${problem.redFlag ? 'flagged' : ''}`}
                 >

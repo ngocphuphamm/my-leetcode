@@ -101,3 +101,21 @@
 .flag-btn.flagged {
   background-color: rgba(255, 0, 0, 0.1);
 }
+.completed {
+  background-color: rgba(0, 255, 0, 0.1); /* Light green background */
+}
+
+/* In ProblemList.css */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
