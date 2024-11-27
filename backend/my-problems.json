@@ -43,7 +43,7 @@
       }
     ],
     "done": false,
-    "redFlag": true,
+    "redFlag": false,
     "completedAt": null
   },
   {
