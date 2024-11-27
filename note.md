@@ -1,49 +1,42 @@
 class Solution {
-    /**
-     * Time Complexity: O(n * m) where:
-     * n = length of string a
-     * m = length of string b
-     * - Building string takes O(m) time
-     * - isSubstring check takes O(n * m) time
-     * Space Complexity: O(m) for StringBuilder
-     */
-    public int repeatedStringMatch(String a, String b) {
-        int count = 1;
-        StringBuilder tempA = new StringBuilder(a);
+    /*
+        Final Time Complexity: O(n + k)
 
-        while (tempA.length() < b.length()) {
-            tempA.append(a);
-            count++;
+        n: length of input string
+        k: number of knowledge pairs
+    */
+    public String evaluate(String s, List<List<String>> knowledges) {
+        HashMap<String, String> mapWord = new HashMap<>();
+
+        for(List<String> knowledge : knowledges)
+        {
+            mapWord.put(knowledge.get(0), knowledge.get(1));   
         }
+        
+        boolean isOpenBracket = false;
+        StringBuilder currStr = new StringBuilder();
 
-        if (isSubstring(tempA.toString(), b)) {
-            return count;
-        }
-
-        tempA.append(a);
-        count++;
-
-        if (isSubstring(tempA.toString(), b)) {
-            return count;
-        }
-        return -1;
-    }
-
-    /**
-     * Time Complexity: O(n * m) where:
-     * n = length of string a
-     * m = length of string b
-     * - Outer loop runs n-m+1 times
-     * - substring and equals operations take O(m) time
-     * Space Complexity: O(1)
-     */
-    public boolean isSubstring(String a, String b) {
-        for (int i = 0; i <= a.length() - b.length(); i++) {
-            if (a.substring(i, i + b.length()).equals(b)) {
-                return true;
+        StringBuilder result = new StringBuilder();
+        for(Character ch : s.toCharArray()){
+            if(ch == '('){
+                isOpenBracket = true;
+            }   
+            else if(ch == ')'){
+                String word = mapWord.getOrDefault(currStr.toString(), "?");
+                result.append(word);
+                isOpenBracket = false;
+                currStr = new StringBuilder();
+            }
+            else{
+                if(isOpenBracket){
+                    currStr.append(ch);
+                }
+                else{
+                    result.append(ch);
+                }
             }
         }
-        return false;
 
+        return result.toString();
     }
 }
