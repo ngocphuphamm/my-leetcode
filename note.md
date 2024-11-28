@@ -1,83 +1,36 @@
-1190. Reverse Substrings Between Each Pair of Parentheses
-Solved
-Medium
-Topics
-Companies
-Hint
-You are given a string s that consists of lower case English letters and brackets.
-
-Reverse the strings in each pair of matching parentheses, starting from the innermost one.
-
-Your result should not contain any brackets.
-
- 
-
-Example 1:
-
-Input: s = "(abcd)"
-Output: "dcba"
-Example 2:
-
-Input: s = "(u(love)i)"
-Output: "iloveu"
-Explanation: The substring "love" is reversed first, then the whole string is reversed.
-Example 3:
-
-Input: s = "(ed(et(oc))el)"
-Output: "leetcode"
-Explanation: First, we reverse the substring "oc", then "etco", and finally, the whole string.
- 
-
-Constraints:
-
-1 <= s.length <= 2000
-s only contains lower case English characters and parentheses.
-It is guaranteed that all parentheses are balanced.
-
-stack<string>
-
-track condition  
-
-cote
-
-cote
-co
-et
-te
-co
-octe
-oc => co push stack 
-et 
-"("
-ed
-"("
-
-currStrr = ed 
-
-
-
-
+/*
+TC: O(n^2logn)
+space: n^2
+*/
 class Solution {
-    public String reverseParentheses(String s) {
-        Stack<StringBuilder> stack = new Stack<StringBuilder>();
-        StringBuilder currString = new StringBuilder();
-        for(int i = 0; i < s.length(); i++){
-            Character ch = s.charAt(i);
-            if(ch == '('){
-                stack.add(currString);
-                currString = new StringBuilder();
+    int modulo = 1_000_000_007;
+    class Pair{
+        int idx; 
+        int sum;
+        Pair(int idx, int sum){
+            this.idx = idx;
+            this.sum = sum;
+        }
+    }
+    public int rangeSum(int[] nums, int n, int left, int right) {
+       PriorityQueue<Pair> minHeap = new PriorityQueue<Pair>((a,b)->a.sum - b.sum);
+       for(int i = 0; i < n;i++){
+            minHeap.add(new Pair(i + 1, nums[i]));
+       }
+
+       int result = 0;
+       for(int i = 1; i < right;i++){
+            Pair pair = minHeap.poll();
+            if(pair.idx >= left){
+                result = (int) (result +  pair.sum) % modulo;
             }
-            else if(ch == ')'){
-                StringBuilder reverseString = currString.reverse();
-                if(!stack.isEmpty()){
-                    currString = stack.pop();
-                }
-                currString.append(reverseString);
+            if(pair.idx < n - 1){
+                pair.sum += nums[pair.idx + 1];
+                minHeap.add(pair);
             }
-            else{
-                currString.append(ch);
-            }
-        }    
-        return currString.toString();   
+       }
+       return result;
     }
 }
+
+
