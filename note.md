@@ -1,64 +1,72 @@
-985. Sum of Even Numbers After Queries
+811. Subdomain Visit Count
 Medium
 Topics
 Companies
-You are given an integer array nums and an array queries where queries[i] = [vali, indexi].
+A website domain "discuss.leetcode.com" consists of various subdomains. At the top level, we have "com", at the next level, we have "leetcode.com" and at the lowest level, "discuss.leetcode.com". When we visit a domain like "discuss.leetcode.com", we will also visit the parent domains "leetcode.com" and "com" implicitly.
 
-For each query i, first, apply nums[indexi] = nums[indexi] + vali, then print the sum of the eveno values f nums.
+A count-paired domain is a domain that has one of the two formats "rep d1.d2.d3" or "rep d1.d2" where rep is the number of visits to the domain and d1.d2.d3 is the domain itself.
 
-Return an integer array answer where answer[i] is the answer to the ith query.
+For example, "9001 discuss.leetcode.com" is a count-paired domain that indicates that discuss.leetcode.com was visited 9001 times.
+Given an array of count-paired domains cpdomains, return an array of the count-paired domains of each subdomain in the input. You may return the answer in any order.
 
  
 
 Example 1:
 
-Input: nums = [1,2,3,4], queries = [[1,0],[-3,1],[-4,0],[2,3]]
-Output: [8,6,2,4]
-Explanation: At the beginning, the array is [1,2,3,4].
-After adding 1 to nums[0], the array is [2,2,3,4], and the sum of even values is 2 + 2 + 4 = 8.
-After adding -3 to nums[1], the array is [2,-1,3,4], and the sum of even values is 2 + 4 = 6.
-After adding -4 to nums[0], the array is [-2,-1,3,4], and the sum of even values is -2 + 4 = 2.
-After adding 2 to nums[3], the array is [-2,-1,3,6], and the sum of even values is -2 + 6 = 4.
+Input: cpdomains = ["9001 discuss.leetcode.com"]
+Output: ["9001 leetcode.com","9001 discuss.leetcode.com","9001 com"]
+Explanation: We only have one website domain: "discuss.leetcode.com".
+As discussed above, the subdomain "leetcode.com" and "com" will also be visited. So they will all be visited 9001 times.
 Example 2:
 
-Input: nums = [1], queries = [[4,0]]
-Output: [0]
+Input: cpdomains = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
+Output: ["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
+Explanation: We will visit "google.mail.com" 900 times, "yahoo.com" 50 times, "intel.mail.com" once and "wiki.org" 5 times.
+For the subdomains, we will visit "mail.com" 900 + 1 = 901 times, "com" 900 + 50 + 1 = 951 times, and "org" 5 times.
  
 
 Constraints:
 
-1 <= nums.length <= 104
--104 <= nums[i] <= 104
-1 <= queries.length <= 104
--104 <= vali <= 104
-0 <= indexi < nums.length
+1 <= cpdomain.length <= 100
+1 <= cpdomain[i].length <= 100
+cpdomain[i] follows either the "repi d1i.d2i.d3i" format or the "repi d1i.d2i" format.
+repi is an integer in the range [1, 104].
+d1i, d2i, and d3i consist of lowercase English letters.
+
+mapLevel 
+String, Integer
+
+split domain and counting eat 
+
+is it sort order when i retrun 
 
 
 class Solution {
-    public int[] sumEvenAfterQueries(int[] nums, int[][] queries) {
-        int evenSum = 0;
-        for(int num : nums){
-            if(num % 2 == 0){
-               evenSum ++ num;
+    public List<<String> subdomainVisits(String[] cpdomains) {
+        HashMap<String,Integer> mapFreq = new HashMap<>();
+
+        for(String cpdomain: cpdomains){
+            String[] partsCPdomain = cpdomain.split("//s+");
+            Integer freq  = Integer.parseInt(partsCPdomain[0]);
+            String domain = partsCPdomain[1];
+            String partsDomain = domain.split(".");
+            String topLevelDomain = partsDomain[partsDomain.length - 1];
+            String rootDomain = partsDomain[partsDomain.length - 2] + "." + topLevelDomain;
+            if(partsDomain.length > 3){
+                String subDomain = partsDomain[0];
+                mapFreq.put(subDomain, mapFreq.getOrDeFault(subDomain, 0) + freq);
             }
+            mapFreq.put(topLevelDomain, mapFreq.getOrDeFault(topLevelDomain, 0) + freq);
+            mapFreq.put(rootDomain, mapFreq.getOrDeFault(rootDomain, 0) + freq);
         }
-        int[] result = new int[nums.length];
-        for(int i = 0; i < queries.length; i++){
-            int[] query = queries[i];
-            int val = query[0];
-            int key = query[1];
-            
-            if(nums[key] % 2 ==0){
-                evenSum -= nums[key];    
-            }
 
-            nums[key] += val;
-
-            if(nums[key] % 2 == 0){
-                evenSum += nums[key];
-            }
-            result[i] = evenSum;
-        }       
+        List<String> result = new ArrayList<>();
+        for(Map.Entry<String, Integer> entry : mapFreq.entrySet())
+        {
+            String domain = entry.getKey();
+            Integer freq = entry.getValue();
+            String cpDomain = freq + " " + domain;
+        }
         return result;
     }
 }
