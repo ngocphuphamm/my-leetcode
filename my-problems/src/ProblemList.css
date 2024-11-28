@@ -184,3 +184,22 @@ th {
 .has-priority.red-flagged td {
   color: #dc3545;
 }
+
+.problems-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.problems-header button {
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.problems-header button:hover {
+  background-color: #e0e0e0;
+}

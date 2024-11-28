@@ -10,6 +10,7 @@ const ProblemsList = () => {
   const [recentlyCompleted, setRecentlyCompleted] = React.useState({});
   const [isLoading, setIsLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
+  const [showCategories, setShowCategories] = React.useState(true);
 
   // Debounce function for API calls
   const debounce = (func, wait) => {
@@ -26,6 +27,11 @@ const ProblemsList = () => {
     const saved = localStorage.getItem('recentlyCompleted');
     if (saved) {
       setRecentlyCompleted(JSON.parse(saved));
+    }
+    // Load categories visibility preference
+    const categoriesVisible = localStorage.getItem('showCategories');
+    if (categoriesVisible !== null) {
+      setShowCategories(JSON.parse(categoriesVisible));
     }
   }, []);
 
@@ -124,19 +130,30 @@ const ProblemsList = () => {
     }
   };
 
+  const toggleCategoriesVisibility = () => {
+    const newValue = !showCategories;
+    setShowCategories(newValue);
+    localStorage.setItem('showCategories', JSON.stringify(newValue));
+  };
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
     <div className="problems-container">
-      <h2>Problems Lisst</h2>
+      <div className="problems-header">
+        <h2>Problems List</h2>
+        <button onClick={toggleCategoriesVisibility}>
+          {showCategories ? 'Hide Categories' : 'Show Categories'}
+        </button>
+      </div>
       <table>
         <thead>
           <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Level</th>
-            <th>Categories</th>
+            {showCategories && <th>Categories</th>}
             <th>Description</th>
             <th>Status</th>
             <th>Completed Date</th>
@@ -156,7 +173,7 @@ const ProblemsList = () => {
               <td>{index + 1}</td>
               <td>{problem.name}</td>
               <td>{problem.level}</td>
-              <td>{problem.categories?.join(', ')}</td>
+              {showCategories && <td>{problem.categories?.join(', ')}</td>}
               <td>{problem.description}</td>
               <td>{problem.done ? '✅' : '❌'}</td>
               <td>{problem.completedAt ? new Date(problem.completedAt).toLocaleDateString() : '-'}</td>

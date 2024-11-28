@@ -47,7 +47,7 @@ const trackActionAndSync = async () => {
   actionCounter++;
   console.log(`Action counter: ${actionCounter}`);
   
-  if (actionCounter >= 4) {
+  if (actionCounter >= 1) {
     try {
       await gitCommitAndPush();
       actionCounter = 0; // Reset counter after successful push
