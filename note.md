@@ -1,72 +1,83 @@
-811. Subdomain Visit Count
+1190. Reverse Substrings Between Each Pair of Parentheses
+Solved
 Medium
 Topics
 Companies
-A website domain "discuss.leetcode.com" consists of various subdomains. At the top level, we have "com", at the next level, we have "leetcode.com" and at the lowest level, "discuss.leetcode.com". When we visit a domain like "discuss.leetcode.com", we will also visit the parent domains "leetcode.com" and "com" implicitly.
+Hint
+You are given a string s that consists of lower case English letters and brackets.
 
-A count-paired domain is a domain that has one of the two formats "rep d1.d2.d3" or "rep d1.d2" where rep is the number of visits to the domain and d1.d2.d3 is the domain itself.
+Reverse the strings in each pair of matching parentheses, starting from the innermost one.
 
-For example, "9001 discuss.leetcode.com" is a count-paired domain that indicates that discuss.leetcode.com was visited 9001 times.
-Given an array of count-paired domains cpdomains, return an array of the count-paired domains of each subdomain in the input. You may return the answer in any order.
+Your result should not contain any brackets.
 
  
 
 Example 1:
 
-Input: cpdomains = ["9001 discuss.leetcode.com"]
-Output: ["9001 leetcode.com","9001 discuss.leetcode.com","9001 com"]
-Explanation: We only have one website domain: "discuss.leetcode.com".
-As discussed above, the subdomain "leetcode.com" and "com" will also be visited. So they will all be visited 9001 times.
+Input: s = "(abcd)"
+Output: "dcba"
 Example 2:
 
-Input: cpdomains = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]
-Output: ["901 mail.com","50 yahoo.com","900 google.mail.com","5 wiki.org","5 org","1 intel.mail.com","951 com"]
-Explanation: We will visit "google.mail.com" 900 times, "yahoo.com" 50 times, "intel.mail.com" once and "wiki.org" 5 times.
-For the subdomains, we will visit "mail.com" 900 + 1 = 901 times, "com" 900 + 50 + 1 = 951 times, and "org" 5 times.
+Input: s = "(u(love)i)"
+Output: "iloveu"
+Explanation: The substring "love" is reversed first, then the whole string is reversed.
+Example 3:
+
+Input: s = "(ed(et(oc))el)"
+Output: "leetcode"
+Explanation: First, we reverse the substring "oc", then "etco", and finally, the whole string.
  
 
 Constraints:
 
-1 <= cpdomain.length <= 100
-1 <= cpdomain[i].length <= 100
-cpdomain[i] follows either the "repi d1i.d2i.d3i" format or the "repi d1i.d2i" format.
-repi is an integer in the range [1, 104].
-d1i, d2i, and d3i consist of lowercase English letters.
+1 <= s.length <= 2000
+s only contains lower case English characters and parentheses.
+It is guaranteed that all parentheses are balanced.
 
-mapLevel 
-String, Integer
+stack<string>
 
-split domain and counting eat 
+track condition  
 
-is it sort order when i retrun 
+cote
+
+cote
+co
+et
+te
+co
+octe
+oc => co push stack 
+et 
+"("
+ed
+"("
+
+currStrr = ed 
+
+
 
 
 class Solution {
-    public List<<String> subdomainVisits(String[] cpdomains) {
-        HashMap<String,Integer> mapFreq = new HashMap<>();
-
-        for(String cpdomain: cpdomains){
-            String[] partsCPdomain = cpdomain.split("//s+");
-            Integer freq  = Integer.parseInt(partsCPdomain[0]);
-            String domain = partsCPdomain[1];
-            String partsDomain = domain.split(".");
-            String topLevelDomain = partsDomain[partsDomain.length - 1];
-            String rootDomain = partsDomain[partsDomain.length - 2] + "." + topLevelDomain;
-            if(partsDomain.length > 3){
-                String subDomain = partsDomain[0];
-                mapFreq.put(subDomain, mapFreq.getOrDeFault(subDomain, 0) + freq);
+    public String reverseParentheses(String s) {
+        Stack<StringBuilder> stack = new Stack<StringBuilder>();
+        StringBuilder currString = new StringBuilder();
+        for(int i = 0; i < s.length(); i++){
+            Character ch = s.charAt(i);
+            if(ch == '('){
+                stack.add(currString);
+                currString = new StringBuilder();
             }
-            mapFreq.put(topLevelDomain, mapFreq.getOrDeFault(topLevelDomain, 0) + freq);
-            mapFreq.put(rootDomain, mapFreq.getOrDeFault(rootDomain, 0) + freq);
-        }
-
-        List<String> result = new ArrayList<>();
-        for(Map.Entry<String, Integer> entry : mapFreq.entrySet())
-        {
-            String domain = entry.getKey();
-            Integer freq = entry.getValue();
-            String cpDomain = freq + " " + domain;
-        }
-        return result;
+            else if(ch == ')'){
+                StringBuilder reverseString = currString.reverse();
+                if(!stack.isEmpty()){
+                    currString = stack.pop();
+                }
+                currString.append(reverseString);
+            }
+            else{
+                currString.append(ch);
+            }
+        }    
+        return currString.toString();   
     }
 }
