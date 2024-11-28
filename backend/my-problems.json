@@ -1714,7 +1714,8 @@
         "percentage": "100%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137588e0a96c7af5fd7f6",
@@ -6349,7 +6350,8 @@
         "percentage": "3.08045%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a1375a8e0a96c7af5fd816",
@@ -6822,7 +6824,8 @@
         "alias": "amazon"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137608e0a96c7af5fd858",
@@ -8405,7 +8408,8 @@
         "alias": "amazon"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-28T09:13:32.817Z"
   },
   {
     "_id": "63a137678e0a96c7af5fd8a4",
@@ -8494,7 +8498,8 @@
         "alias": "amazon"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137698e0a96c7af5fd8bb",

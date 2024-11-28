@@ -39,6 +39,25 @@ const gitCommitAndPush = () => {
   });
 };
 
+// Add action counter
+let actionCounter = 0;
+
+// Add function to manage actions and git operations
+const trackActionAndSync = async () => {
+  actionCounter++;
+  console.log(`Action counter: ${actionCounter}`);
+  
+  if (actionCounter >= 4) {
+    try {
+      await gitCommitAndPush();
+      actionCounter = 0; // Reset counter after successful push
+      console.log('Git sync completed after 3 actions');
+    } catch (error) {
+      console.error('Failed to sync with git:', error);
+    }
+  }
+};
+
 // Get all problems
 app.get('/api/problems', async (req, res) => {
   try {
@@ -67,7 +86,7 @@ app.patch('/api/problems/:id/toggle', async (req, res) => {
     });
     
     await writeProblems(updatedProblems);
-    await gitCommitAndPush();
+    await trackActionAndSync(); // Replace gitCommitAndPush with trackActionAndSync
     res.json(updatedProblems.find(p => p._id === req.params.id));
   } catch (error) {
     res.status(400).json({ message: error.message });
@@ -90,7 +109,7 @@ app.patch('/api/problems/:id/redflag', async (req, res) => {
     });
     
     await writeProblems(updatedProblems);
-    await gitCommitAndPush();
+    await trackActionAndSync();
     res.json(updatedProblems.find(p => p._id === req.params.id));
   } catch (error) {
     res.status(400).json({ message: error.message });
@@ -113,7 +132,7 @@ app.put('/api/problems/:id/priority', async (req, res) => {
     });
 
     await writeProblems(updatedProblems);
-    await gitCommitAndPush();
+    await trackActionAndSync();
     
     const updatedProblem = updatedProblems.find(p => p._id === req.params.id);
     if (!updatedProblem) {
@@ -139,7 +158,7 @@ app.delete('/api/problems/:id/priority', async (req, res) => {
     });
     
     await writeProblems(updatedProblems);
-    await gitCommitAndPush();
+    await trackActionAndSync();
     
     const updatedProblem = updatedProblems.find(p => p._id === req.params.id);
     if (!updatedProblem) {
