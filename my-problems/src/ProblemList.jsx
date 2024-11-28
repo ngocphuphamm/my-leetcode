@@ -93,8 +93,8 @@ const ProblemsList = () => {
 
   const handleTogglePriority = async (id, currentPriority) => {
     try {
-      // Cycle through priority levels: 1 -> 2 -> 3 -> 1
-      const newPriority = currentPriority ? (currentPriority % 3) + 1 : 1;
+      // Cycle through priority levels: 1 -> 2 -> 3 -> null
+      const newPriority = currentPriority === 3 ? null : (currentPriority ? (currentPriority % 3) + 1 : 1);
       
       const response = await axios.put(`${API_URL}/problems/${id}/priority`, {
         priority: newPriority

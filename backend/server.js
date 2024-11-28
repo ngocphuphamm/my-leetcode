@@ -100,8 +100,8 @@ app.patch('/api/problems/:id/redflag', async (req, res) => {
 app.put('/api/problems/:id/priority', async (req, res) => {
   try {
     const { priority } = req.body;
-    if (typeof priority !== 'number' || priority < 1 || priority > 3) {
-      return res.status(400).json({ message: "Priority must be a number between 1 and 3" });
+    if (priority !== null && (typeof priority !== 'number' || priority < 1 || priority > 3)) {
+      return res.status(400).json({ message: "Priority must be null or a number between 1 and 3" });
     }
 
     const problems = await readProblems();
