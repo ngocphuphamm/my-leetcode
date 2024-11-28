@@ -151,6 +151,7 @@ const ProblemsList = () => {
         ${problem.done ? 'completed' : ''}
         ${isCompletedRecently(problem) ? 'recently-completed' : ''} 
         ${problem.redFlag ? 'red-flagged' : ''}
+        ${problem.priority ? 'has-priority' : ''}
       `}>
               <td>{index + 1}</td>
               <td>{problem.name}</td>

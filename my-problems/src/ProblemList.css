@@ -166,3 +166,21 @@ th {
   background-color: #ff4444;
   color: white;
 }
+
+.has-priority {
+  background-color: rgba(255, 165, 0, 0.1); /* Light orange background */
+}
+
+.has-priority td {
+  color: #ff8c00; /* Dark orange text */
+  font-weight: bold;  /* Add bold text */
+}
+
+/* Ensure priority styling doesn't conflict with other states */
+.has-priority.completed td {
+  color: inherit;
+}
+
+.has-priority.red-flagged td {
+  color: #dc3545;
+}
