@@ -8574,7 +8574,8 @@
         "percentage": "16.2917%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137618e0a96c7af5fd866",
@@ -8678,7 +8679,8 @@
         "percentage": "73.512%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137688e0a96c7af5fd8b3",
@@ -9202,7 +9204,8 @@
         "alias": "amazon"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a1376b8e0a96c7af5fd8d4",
@@ -9301,7 +9304,8 @@
         "percentage": "37.4054%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a1376e8e0a96c7af5fd8fa",
