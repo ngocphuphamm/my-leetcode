@@ -23587,9 +23587,7 @@
     "_id": "640dc197f12a3834456524f3",
     "name": "Consecutive Numbers",
     "level": "Medium",
-    "categories": [
-      "Database"
-    ],
+    "categories": [],
     "linkName": "consecutive-numbers",
     "companies": [
       {
@@ -23605,10 +23603,7 @@
     "_id": "640dc222fbc2aeb3929f1943",
     "name": "Maximum Number of Removable Characters",
     "level": "Medium",
-    "categories": [
-      "String",
-      "Binary Search"
-    ],
+    "categories": [],
     "linkName": "maximum-number-of-removable-characters",
     "companies": [
       {
@@ -23624,11 +23619,7 @@
     "_id": "640dc27ffbc2aeb3929f195d",
     "name": "Binary Tree Vertical Order Traversal",
     "level": "Medium",
-    "categories": [
-      "Tree",
-      "Binary Tree",
-      "Breadth-First Search"
-    ],
+    "categories": [],
     "linkName": "binary-tree-vertical-order-traversal",
     "companies": [
       {
@@ -23644,10 +23635,7 @@
     "_id": "640dc284fbc2aeb3929f1961",
     "name": "Nested List Weight Sum",
     "level": "Medium",
-    "categories": [
-      "Depth-First Search",
-      "Breadth-First Search"
-    ],
+    "categories": [],
     "linkName": "nested-list-weight-sum",
     "companies": [
       {
@@ -23663,11 +23651,7 @@
     "_id": "640dc28ffbc2aeb3929f1966",
     "name": "Minimum Genetic Mutation",
     "level": "Medium",
-    "categories": [
-      "Breadth-First Search",
-      "Hash Table",
-      "String"
-    ],
+    "categories": [],
     "linkName": "minimum-genetic-mutation",
     "companies": [
       {
@@ -23683,10 +23667,7 @@
     "_id": "640dc43250f8390b7181058f",
     "name": "Process Tasks Using Servers",
     "level": "Medium",
-    "categories": [
-      "Array",
-      "Heap (Priority Queue)"
-    ],
+    "categories": [],
     "linkName": "process-tasks-using-servers",
     "companies": [
       {
@@ -23702,10 +23683,7 @@
     "_id": "640dcba588c28e65966d1198",
     "name": "Minimum Cost Homecoming of a Robot in a Grid",
     "level": "Medium",
-    "categories": [
-      "Array",
-      "Greedy"
-    ],
+    "categories": [],
     "linkName": "minimum-cost-homecoming-of-a-robot-in-a-grid",
     "companies": [],
     "done": false
@@ -23714,9 +23692,7 @@
     "_id": "640dcc85312e5dc5b4edd1b7",
     "name": "Maximal Network Rank",
     "level": "Medium",
-    "categories": [
-      "Graph"
-    ],
+    "categories": [],
     "linkName": "maximal-network-rank",
     "companies": [],
     "done": false
@@ -23725,10 +23701,7 @@
     "_id": "640dcd1fabf98f02b1271c13",
     "name": "Exam Room",
     "level": "Medium",
-    "categories": [
-      "Array",
-      "Ordered Set"
-    ],
+    "categories": [],
     "linkName": "exam-room",
     "companies": [],
     "done": false
@@ -23737,10 +23710,7 @@
     "_id": "640dcd47abf98f02b1271c1a",
     "name": "Smallest Value of the Rearranged Number",
     "level": "Medium",
-    "categories": [
-      "Math",
-      "Sorting"
-    ],
+    "categories": [],
     "linkName": "smallest-value-of-the-rearranged-number",
     "companies": [],
     "done": false
@@ -23750,7 +23720,7 @@
     "name": "Reverse Nodes in Even Length Groups",
     "level": "Medium",
     "categories": [
-      "Linked List"
+      "linked-list"
     ],
     "linkName": "reverse-nodes-in-even-length-groups",
     "companies": [
@@ -23767,11 +23737,7 @@
     "_id": "640dc199f12a3834456524f4",
     "name": "Longest Increasing Subsequence",
     "level": "Medium",
-    "categories": [
-      "Array",
-      "Binary Search",
-      "Dynamic Programming"
-    ],
+    "categories": [],
     "linkName": "longest-increasing-subsequence",
     "companies": [
       {
@@ -23787,11 +23753,7 @@
     "_id": "640dc19ef12a383445652506",
     "name": "Word Subsets",
     "level": "Medium",
-    "categories": [
-      "Array",
-      "Hash Table",
-      "String"
-    ],
+    "categories": [],
     "linkName": "word-subsets",
     "companies": [
       {
@@ -23807,11 +23769,7 @@
     "_id": "640dc285fbc2aeb3929f1962",
     "name": "Longest Substring with At Most K Distinct Characters",
     "level": "Medium",
-    "categories": [
-      "Hash Table",
-      "String",
-      "Sliding Window"
-    ],
+    "categories": [],
     "linkName": "longest-substring-with-at-most-k-distinct-characters",
     "companies": [
       {
@@ -23821,8 +23779,1103 @@
         "percentage": "29"
       }
     ],
-    "done": false,
-    "priority": 2
+    "done": false
+  },
+  {
+    "_id": "640dc30ffbc2aeb3929f196e",
+    "name": "Shortest Path to Get Food",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "shortest-path-to-get-food",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f075b",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "32"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc36efbc2aeb3929f199a",
+    "name": "Most Stones Removed with Same Row or Column",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "most-stones-removed-with-same-row-or-column",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f075c",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "1"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42650f8390b7181055c",
+    "name": "Satisfiability of Equality Equations",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "satisfiability-of-equality-equations",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f075d",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "16"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42950f8390b71810569",
+    "name": "Longest String Chain",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "longest-string-chain",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f075e",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "12"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42c50f8390b71810579",
+    "name": "Jump Game III",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "jump-game-iii",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f075f",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "5"
+      }
+    ],
+    "done": true
+  },
+  {
+    "_id": "640dc42e50f8390b7181057e",
+    "name": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0760",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "12"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42e50f8390b7181057f",
+    "name": "Active Users",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "active-users",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0761",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "14"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42f50f8390b71810581",
+    "name": "Check If Array Pairs Are Divisible by k",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "check-if-array-pairs-are-divisible-by-k",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0762",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "9"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43050f8390b71810588",
+    "name": "Jump Game VI",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "jump-game-vi",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0763",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "8"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43250f8390b7181058e",
+    "name": "Minimum Number of Swaps to Make the Binary String Alternating",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0764",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "69"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43350f8390b71810596",
+    "name": "Step-By-Step Directions From a Binary Tree Node to Another",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "step-by-step-directions-from-a-binary-tree-node-to-another",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0765",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "14"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc68e12efe1880e7657d4",
+    "name": "Count Strictly Increasing Subarrays",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "count-strictly-increasing-subarrays",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc9b3b83e749b522786d6",
+    "name": "The Earliest Moment When Everyone Become Friends",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "the-earliest-moment-when-everyone-become-friends",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc9b8b83e749b522786da",
+    "name": "Filling Bookcase Shelves",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "filling-bookcase-shelves",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb32903ff7bd0b6cef36",
+    "name": "Maximum Number of Points with Cost",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-number-of-points-with-cost",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb33903ff7bd0b6cef39",
+    "name": "Detonate the Maximum Bombs",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "detonate-the-maximum-bombs",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb37903ff7bd0b6cef4f",
+    "name": "Finding the Number of Visible Mountains",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "finding-the-number-of-visible-mountains",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcc86312e5dc5b4edd1ba",
+    "name": "Find Missing Observations",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "find-missing-observations",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dccddabf98f02b1271c05",
+    "name": "All Ancestors of a Node in a Directed Acyclic Graph",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcd73abf98f02b1271c21",
+    "name": "Minimum Sum of Squared Difference",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "minimum-sum-of-squared-difference",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "63a138818e0a96c7af5fdc6e",
+    "name": "Count Number of Homogenous Substrings",
+    "level": "Medium",
+    "categories": [
+      "math",
+      "string"
+    ],
+    "linkName": "count-number-of-homogenous-substrings",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0766",
+        "name": "Virtu Financial",
+        "freq": 1,
+        "alias": "virtufinancial"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc244fbc2aeb3929f1946",
+    "name": "Longest Substring with At Most Two Distinct Characters",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "longest-substring-with-at-most-two-distinct-characters",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0767",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "15"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc27dfbc2aeb3929f195c",
+    "name": "Best Time to Buy and Sell Stock with Cooldown",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "best-time-to-buy-and-sell-stock-with-cooldown",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0768",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "2"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc280fbc2aeb3929f195e",
+    "name": "Number of Connected Components in an Undirected Graph",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "number-of-connected-components-in-an-undirected-graph",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0769",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "10"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc289fbc2aeb3929f1965",
+    "name": "Find Leaves of Binary Tree",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "find-leaves-of-binary-tree",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076a",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "34"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc334fbc2aeb3929f196f",
+    "name": "Next Greater Element III",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "next-greater-element-iii",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076b",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "42"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc364fbc2aeb3929f1992",
+    "name": "Possible Bipartition",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "possible-bipartition",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076c",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "6"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43150f8390b71810589",
+    "name": "Find Distance in a Binary Tree",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "find-distance-in-a-binary-tree",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076d",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "16"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43650f8390b718105aa",
+    "name": "Number of People Aware of a Secret",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "number-of-people-aware-of-a-secret",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076e",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "26"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc67412efe1880e7657c5",
+    "name": "Candy Crush",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "candy-crush",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc69512efe1880e7657d6",
+    "name": "Maximum Sum of Two Non-Overlapping Subarrays",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-sum-of-two-non-overlapping-subarrays",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc91a28d50e7ec012486d",
+    "name": "Friends Of Appropriate Ages",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "friends-of-appropriate-ages",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb34903ff7bd0b6cef3f",
+    "name": "Removing Minimum Number of Magic Beans",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "removing-minimum-number-of-magic-beans",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcbf988c28e65966d11a8",
+    "name": "Maximum Points in an Archery Competition",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-points-in-an-archery-competition",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcc80312e5dc5b4edd1b3",
+    "name": "Design Linked List",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "design-linked-list",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcd87abf98f02b1271c25",
+    "name": "Find a Peak Element II",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "find-a-peak-element-ii",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc19df12a383445652500",
+    "name": "All Paths From Source to Target",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "all-paths-from-source-to-target",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f076f",
+        "name": "Adobe",
+        "alias": "adobe",
+        "percentage": "8"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc1eafbc2aeb3929f1938",
+    "name": "Flatten 2D Vector",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "flatten-2d-vector",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0770",
+        "name": "Airbnb",
+        "alias": "airbnb",
+        "percentage": "49"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc201fbc2aeb3929f193e",
+    "name": "Cheapest Flights Within K Stops",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "cheapest-flights-within-k-stops",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0771",
+        "name": "Airbnb",
+        "alias": "airbnb",
+        "percentage": "36"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc340fbc2aeb3929f1978",
+    "name": "Employee Importance",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "employee-importance",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0772",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "10"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc36cfbc2aeb3929f1998",
+    "name": "Reorder Data in Log Files",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "reorder-data-in-log-files",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0773",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "91"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc36ffbc2aeb3929f199b",
+    "name": "Largest Time for Given Digits",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "largest-time-for-given-digits",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0774",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "22"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42850f8390b71810565",
+    "name": "Robot Bounded In Circle",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "robot-bounded-in-circle",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0775",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "34"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42a50f8390b7181056d",
+    "name": "Invalid Transactions",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "invalid-transactions",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0776",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "5"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43450f8390b7181059b",
+    "name": "Find Triangular Sum of an Array",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "find-triangular-sum-of-an-array",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0777",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "73"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43750f8390b718105b4",
+    "name": "Divide Intervals Into Minimum Number of Groups",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "divide-intervals-into-minimum-number-of-groups",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0778",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "18"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc67512efe1880e7657c7",
+    "name": "Longest Mountain in Array",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "longest-mountain-in-array",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc67712efe1880e7657c9",
+    "name": "Shortest Path with Alternating Colors",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "shortest-path-with-alternating-colors",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc74912efe1880e7657ea",
+    "name": "Path With Maximum Minimum Value",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "path-with-maximum-minimum-value",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc80f48cdc07fdba84d57",
+    "name": "Grumpy Bookstore Owner",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "grumpy-bookstore-owner",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc91c28d50e7ec0124870",
+    "name": "Lowest Common Ancestor of Deepest Leaves",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "lowest-common-ancestor-of-deepest-leaves",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc9abb83e749b522786d1",
+    "name": "Hand of Straights",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "hand-of-straights",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb34903ff7bd0b6cef3d",
+    "name": "Remove All Ones With Row and Column Flips",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "remove-all-ones-with-row-and-column-flips",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb35903ff7bd0b6cef47",
+    "name": "Maximum White Tiles Covered by a Carpet",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-white-tiles-covered-by-a-carpet",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcc0388c28e65966d11aa",
+    "name": "Shortest Word Distance III",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "shortest-word-distance-iii",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "63a138778e0a96c7af5fdc5d",
+    "name": "Maximum XOR for Each Query",
+    "level": "Medium",
+    "categories": [
+      "array",
+      "bit-manipulation",
+      "prefix-sum"
+    ],
+    "linkName": "maximum-xor-for-each-query",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0779",
+        "name": "Uber",
+        "freq": 1,
+        "alias": "uber"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc1fffbc2aeb3929f193c",
+    "name": "Pour Water",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "pour-water",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077a",
+        "name": "Airbnb",
+        "alias": "airbnb",
+        "percentage": "100"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc24cfbc2aeb3929f194c",
+    "name": "Department Highest Salary",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "department-highest-salary",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077b",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "2"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc274fbc2aeb3929f1956",
+    "name": "Graph Valid Tree",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "graph-valid-tree",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077c",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "3"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc33ffbc2aeb3929f1977",
+    "name": "Next Closest Time",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "next-closest-time",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077d",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "27"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc368fbc2aeb3929f1995",
+    "name": "Sum of Subarray Minimums",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "sum-of-subarray-minimums",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077e",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "44"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc370fbc2aeb3929f199c",
+    "name": "Maximum Width Ramp",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-width-ramp",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f077f",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "26"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43450f8390b7181059c",
+    "name": "Number of Ways to Select Buildings",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "number-of-ways-to-select-buildings",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0780",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "81"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc6b512efe1880e7657da",
+    "name": "Range Addition",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "range-addition",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc70e12efe1880e7657e2",
+    "name": "Web Crawler Multithreaded",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "web-crawler-multithreaded",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dc9adb83e749b522786d2",
+    "name": "Binary Subarrays With Sum",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "binary-subarrays-with-sum",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcb36903ff7bd0b6cef48",
+    "name": "Move Pieces to Obtain a String",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "move-pieces-to-obtain-a-string",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcbd888c28e65966d11a3",
+    "name": "Clumsy Factorial",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "clumsy-factorial",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcc0788c28e65966d11ab",
+    "name": "Design Bounded Blocking Queue",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "design-bounded-blocking-queue",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "640dcd58abf98f02b1271c1c",
+    "name": "Minimum Increment to Make Array Unique",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "minimum-increment-to-make-array-unique",
+    "companies": [],
+    "done": false
+  },
+  {
+    "_id": "63a138868e0a96c7af5fdc75",
+    "name": "Remove Colored Pieces if Both Neighbors are the Same Color",
+    "level": "Medium",
+    "categories": [
+      "math",
+      "string",
+      "greedy",
+      "game-theory"
+    ],
+    "linkName": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0781",
+        "name": "Walmart Global Tech",
+        "alias": "walmartglobaltech",
+        "freq": 9
+      },
+      {
+        "_id": "673bf4b023c6f66fae0f0782",
+        "name": "JpMorgan",
+        "alias": "jpmorgan",
+        "percentage": "100%;"
+      },
+      {
+        "_id": "673bf4b023c6f66fae0f0783",
+        "name": "Wakmart Labs",
+        "alias": "walmartlabs",
+        "percentage": "74.5252%;"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc19df12a383445652501",
+    "name": "Mirror Reflection",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "mirror-reflection",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0784",
+        "name": "Adobe",
+        "alias": "adobe",
+        "percentage": "81"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc19df12a383445652504",
+    "name": "Reordered Power of 2",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "reordered-power-of-2",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0785",
+        "name": "Adobe",
+        "alias": "adobe",
+        "percentage": "30"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc19ef12a383445652505",
+    "name": "All Possible Full Binary Trees",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "all-possible-full-binary-trees",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0786",
+        "name": "Adobe",
+        "alias": "adobe",
+        "percentage": "31"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc2fdfbc2aeb3929f196d",
+    "name": "Number of Provinces",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "number-of-provinces",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0787",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "40"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc34efbc2aeb3929f1984",
+    "name": "Is Graph Bipartite?",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "is-graph-bipartite",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0788",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "17"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc42750f8390b71810560",
+    "name": "Binary String With Substrings Representing 1 To N",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "binary-string-with-substrings-representing-1-to-n",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f0789",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "20"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43150f8390b7181058d",
+    "name": "Maximum Subarray Min-Product",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "maximum-subarray-min-product",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f078a",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "18"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43450f8390b7181059a",
+    "name": "Append K Integers With Minimal Sum",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "append-k-integers-with-minimal-sum",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f078b",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "33"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43550f8390b718105a4",
+    "name": "Apply Discount to Prices",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "apply-discount-to-prices",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f078c",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "40"
+      }
+    ],
+    "done": false
+  },
+  {
+    "_id": "640dc43750f8390b718105b3",
+    "name": "Optimal Partition of String",
+    "level": "Medium",
+    "categories": [],
+    "linkName": "optimal-partition-of-string",
+    "companies": [
+      {
+        "_id": "673bf4b023c6f66fae0f078d",
+        "name": "Amazon",
+        "alias": "amazon",
+        "percentage": "7"
+      }
+    ],
+    "done": false
   },
   {
     "_id": "640dc47d50f8390b718105c2",
