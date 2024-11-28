@@ -946,7 +946,8 @@
         "alias": "amazon"
       }
     ],
-    "done": false
+    "done": false,
+    "redFlag": true
   },
   {
     "_id": "63a137548e0a96c7af5fd7c7",
