@@ -97,4 +97,33 @@ app.patch('/api/problems/:id/redflag', async (req, res) => {
   }
 });
 
+app.put('/api/problems/:id/priority', async (req, res) => {
+  try {
+    const { priority } = req.body;
+    if (typeof priority !== 'number' || priority < 1 || priority > 3) {
+      return res.status(400).json({ message: "Priority must be a number between 1 and 3" });
+    }
+
+    const problems = await readProblems();
+    const updatedProblems = problems.map(problem => {
+      if (problem._id === req.params.id) {
+        return { ...problem, priority };
+      }
+      return problem;
+    });
+
+    await writeProblems(updatedProblems);
+    await gitCommitAndPush();
+    
+    const updatedProblem = updatedProblems.find(p => p._id === req.params.id);
+    if (!updatedProblem) {
+      return res.status(404).json({ message: "Problem not found" });
+    }
+    
+    res.json(updatedProblem);
+  } catch (error) {
+    res.status(500).json({ message: "Error updating priority", error: error.message });
+  }
+});
+
 app.listen(5000, () => console.log('Server running on port 5000'));

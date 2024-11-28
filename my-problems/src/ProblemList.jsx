@@ -91,12 +91,31 @@ const ProblemsList = () => {
     }
   }, 300);
 
+  const handleTogglePriority = async (id, currentPriority) => {
+    try {
+      // Cycle through priority levels: 1 -> 2 -> 3 -> 1
+      const newPriority = currentPriority ? (currentPriority % 3) + 1 : 1;
+      
+      const response = await axios.put(`${API_URL}/problems/${id}/priority`, {
+        priority: newPriority
+      });
+
+      if (response.data) {
+        setProblems(problems.map(prob => 
+          prob._id === id ? {...prob, priority: newPriority} : prob
+        ));
+      }
+    } catch (error) {
+      console.error('Error updating priority:', error);
+    }
+  };
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
     <div className="problems-container">
-      <h2>Problems List</h2>
+      <h2>Problems Lisst</h2>
       <table>
         <thead>
           <tr>
@@ -108,6 +127,7 @@ const ProblemsList = () => {
             <th>Status</th>
             <th>Completed Date</th>
             <th>Action</th>
+            <th>Priority</th>
           </tr>
         </thead>
         <tbody>
@@ -137,6 +157,17 @@ const ProblemsList = () => {
                   className={`flag-btn ${problem.redFlag ? 'flagged' : ''}`}
                 >
                   🚩
+                </button>
+              </td>
+              <td>
+                <button
+                  onClick={() => handleTogglePriority(problem._id, problem.priority)}
+                  className={`priority-btn priority-${problem.priority || 0}`}
+                >
+                  {[...Array(problem.priority || 0)].map((_, i) => (
+                    <span key={i}>⭐</span>
+                  ))}
+                  {!problem.priority && '☆'}
                 </button>
               </td>
             </tr>

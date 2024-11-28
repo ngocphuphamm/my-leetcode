@@ -44,7 +44,8 @@
     ],
     "done": false,
     "redFlag": false,
-    "completedAt": null
+    "completedAt": null,
+    "priority": 1
   },
   {
     "_id": "63a137588e0a96c7af5fd7f8",
