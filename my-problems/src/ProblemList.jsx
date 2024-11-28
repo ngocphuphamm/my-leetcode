@@ -110,6 +110,20 @@ const ProblemsList = () => {
     }
   };
 
+  const handleRemovePriority = async (id) => {
+    try {
+      const response = await axios.delete(`${API_URL}/problems/${id}/priority`);
+
+      if (response.data) {
+        setProblems(problems.map(prob => 
+          prob._id === id ? {...prob, priority: undefined} : prob
+        ));
+      }
+    } catch (error) {
+      console.error('Error removing priority:', error);
+    }
+  };
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -160,15 +174,26 @@ const ProblemsList = () => {
                 </button>
               </td>
               <td>
-                <button
-                  onClick={() => handleTogglePriority(problem._id, problem.priority)}
-                  className={`priority-btn priority-${problem.priority || 0}`}
-                >
-                  {[...Array(problem.priority || 0)].map((_, i) => (
-                    <span key={i}>⭐</span>
-                  ))}
-                  {!problem.priority && '☆'}
-                </button>
+                <div className="priority-controls">
+                  <button
+                    onClick={() => handleTogglePriority(problem._id, problem.priority)}
+                    className={`priority-btn priority-${problem.priority || 0}`}
+                  >
+                    {[...Array(problem.priority || 0)].map((_, i) => (
+                      <span key={i}>⭐</span>
+                    ))}
+                    {!problem.priority && '☆'}
+                  </button>
+                  {problem.priority && (
+                    <button
+                      onClick={() => handleRemovePriority(problem._id)}
+                      className="remove-priority-btn"
+                      title="Remove priority"
+                    >
+                      ×
+                    </button>
+                  )}
+                </div>
               </td>
             </tr>
           ))}

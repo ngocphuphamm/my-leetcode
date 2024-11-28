@@ -126,4 +126,30 @@ app.put('/api/problems/:id/priority', async (req, res) => {
   }
 });
 
+app.delete('/api/problems/:id/priority', async (req, res) => {
+  try {
+    console.log('Removing priority...');
+    const problems = await readProblems();
+    const updatedProblems = problems.map(problem => {
+      if (problem._id === req.params.id) {
+        const { priority, ...problemWithoutPriority } = problem;
+        return problemWithoutPriority;
+      }
+      return problem;
+    });
+    
+    await writeProblems(updatedProblems);
+    await gitCommitAndPush();
+    
+    const updatedProblem = updatedProblems.find(p => p._id === req.params.id);
+    if (!updatedProblem) {
+      return res.status(404).json({ message: "Problem not found" });
+    }
+    
+    res.json(updatedProblem);
+  } catch (error) {
+    res.status(500).json({ message: "Error removing priority", error: error.message });
+  }
+});
+
 app.listen(5000, () => console.log('Server running on port 5000'));

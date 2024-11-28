@@ -143,3 +143,26 @@ th {
 .priority-1 { color: #ffd700; }
 .priority-2 { color: #ffd700; }
 .priority-3 { color: #ffd700; }
+
+.priority-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.remove-priority-btn {
+  background: none;
+  border: none;
+  color: #ff4444;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.remove-priority-btn:hover {
+  background-color: #ff4444;
+  color: white;
+}
