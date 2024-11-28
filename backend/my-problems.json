@@ -23580,8 +23580,8 @@
         "percentage": "0"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-11-28T16:53:02.754Z"
   },
   {
     "_id": "640dc197f12a3834456524f3",
