@@ -23100,7 +23100,8 @@
         "alias": "nutanix"
       }
     ],
-    "done": false
+    "done": true,
+    "completedAt": "2024-11-28T15:25:10.863Z"
   },
   {
     "_id": "63a1383b8e0a96c7af5fdc14",
