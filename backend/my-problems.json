@@ -26370,7 +26370,8 @@
         "percentage": "84"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc64f12efe1880e7657c2",
@@ -26405,7 +26406,8 @@
     ],
     "linkName": "minimum-deletions-to-make-character-frequencies-unique",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc91a28d50e7ec012486c",
@@ -26451,7 +26453,8 @@
     ],
     "linkName": "detect-squares",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcd95abf98f02b1271c26",
@@ -26502,7 +26505,8 @@
         "percentage": "0"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc19ef12a383445652508",
@@ -26596,7 +26600,8 @@
         "percentage": "17"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc42650f8390b7181055b",
