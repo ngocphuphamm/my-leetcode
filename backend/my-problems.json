@@ -27366,7 +27366,8 @@
     ],
     "linkName": "count-words-obtained-after-adding-a-letter",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcc82312e5dc5b4edd1b4",
@@ -27389,7 +27390,8 @@
     ],
     "linkName": "minimum-deletions-to-make-string-balanced",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcce3abf98f02b1271c06",
@@ -27400,7 +27402,8 @@
     ],
     "linkName": "time-needed-to-rearrange-a-binary-string",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcd02abf98f02b1271c0c",
@@ -27553,7 +27556,8 @@
         "percentage": "52"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc81f48cdc07fdba84d58",
@@ -27600,7 +27604,8 @@
     ],
     "linkName": "frequency-of-the-most-frequent-element",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcb37903ff7bd0b6cef4e",
