@@ -24569,7 +24569,8 @@
     ],
     "linkName": "longest-mountain-in-array",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc67712efe1880e7657c9",
@@ -24790,7 +24791,8 @@
         "percentage": "26"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43450f8390b7181059c",
@@ -24886,7 +24888,8 @@
     ],
     "linkName": "minimum-increment-to-make-array-unique",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a138868e0a96c7af5fdc75",
@@ -25028,7 +25031,8 @@
         "percentage": "20"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43150f8390b7181058d",
@@ -25065,7 +25069,8 @@
         "percentage": "33"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43550f8390b718105a4",
