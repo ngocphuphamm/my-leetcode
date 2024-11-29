@@ -203,3 +203,71 @@ th {
 .problems-header button:hover {
   background-color: #e0e0e0;
 }
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.sort-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sort-controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.sort-controls button.active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.stats-container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stat-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.stat-value {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.stat-value.red {
+  color: #dc3545;
+}
+
+.stat-value.green {
+  color: #28a745;
+}
+
+.stat-value.yellow {
+  color: #ffc107;
+}
+
+.stat-value.gold {
+  color: #ffd700;
+}

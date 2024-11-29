@@ -11,6 +11,7 @@ const ProblemsList = () => {
   const [isLoading, setIsLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
   const [showCategories, setShowCategories] = React.useState(true);
+  const [sortBy, setSortBy] = React.useState('priority'); // Add new state for sorting
 
   // Debounce function for API calls
   const debounce = (func, wait) => {
@@ -136,6 +137,49 @@ const ProblemsList = () => {
     localStorage.setItem('showCategories', JSON.stringify(newValue));
   };
 
+  const getSortedProblems = () => {
+    return [...problems].sort((a, b) => {
+      switch (sortBy) {
+        case 'priority':
+          // Sort by priority (3 -> 2 -> 1 -> no priority)
+          return (b.priority || 0) - (a.priority || 0);
+        case 'status':
+          // Sort by completion status (done first)
+          return b.done - a.done;
+        case 'pending':
+          // Sort by pending status (not done first)
+          return a.done - b.done;
+        case 'redFlag':
+          // Sort by red flag status
+          return (b.redFlag || 0) - (a.redFlag || 0);
+        default:
+          return 0;
+      }
+    });
+  };
+
+  const getStats = () => {
+    const stats = {
+      redFlag: 0,
+      done: 0,
+      notDone: 0,
+      priority1: 0,
+      priority2: 0,
+      priority3: 0
+    };
+
+    problems.forEach(problem => {
+      if (problem.redFlag) stats.redFlag++;
+      if (problem.done) stats.done++;
+      else stats.notDone++;
+      if (problem.priority === 1) stats.priority1++;
+      if (problem.priority === 2) stats.priority2++;
+      if (problem.priority === 3) stats.priority3++;
+    });
+
+    return stats;
+  };
+
   if (isLoading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -143,10 +187,66 @@ const ProblemsList = () => {
     <div className="problems-container">
       <div className="problems-header">
         <h2>Problems List</h2>
-        <button onClick={toggleCategoriesVisibility}>
-          {showCategories ? 'Hide Categories' : 'Show Categories'}
-        </button>
+        <div className="controls">
+          <button onClick={toggleCategoriesVisibility}>
+            {showCategories ? 'Hide Categories' : 'Show Categories'}
+          </button>
+          <div className="sort-controls">
+            <button 
+              onClick={() => setSortBy('priority')}
+              className={sortBy === 'priority' ? 'active' : ''}
+            >
+              Sort by Priority
+            </button>
+            <button 
+              onClick={() => setSortBy('status')}
+              className={sortBy === 'status' ? 'active' : ''}
+            >
+              Sort by Completed
+            </button>
+            <button 
+              onClick={() => setSortBy('pending')}
+              className={sortBy === 'pending' ? 'active' : ''}
+            >
+              Sort by Pending
+            </button>
+            <button 
+              onClick={() => setSortBy('redFlag')}
+              className={sortBy === 'redFlag' ? 'active' : ''}
+            >
+              Sort by Red Flag
+            </button>
+          </div>
+        </div>
       </div>
+
+      <div className="stats-container">
+        <div className="stat-box">
+          <span className="stat-label">Red Flags:</span>
+          <span className="stat-value red">{getStats().redFlag}</span>
+        </div>
+        <div className="stat-box">
+          <span className="stat-label">Completed:</span>
+          <span className="stat-value green">{getStats().done}</span>
+        </div>
+        <div className="stat-box">
+          <span className="stat-label">Pending:</span>
+          <span className="stat-value yellow">{getStats().notDone}</span>
+        </div>
+        <div className="stat-box">
+          <span className="stat-label">Priority ⭐:</span>
+          <span className="stat-value gold">{getStats().priority1}</span>
+        </div>
+        <div className="stat-box">
+          <span className="stat-label">Priority ⭐⭐:</span>
+          <span className="stat-value gold">{getStats().priority2}</span>
+        </div>
+        <div className="stat-box">
+          <span className="stat-label">Priority ⭐⭐⭐:</span>
+          <span className="stat-value gold">{getStats().priority3}</span>
+        </div>
+      </div>
+
       <table>
         <thead>
           <tr>
@@ -162,7 +262,7 @@ const ProblemsList = () => {
           </tr>
         </thead>
         <tbody>
-          {problems.map((problem, index) => (
+          {getSortedProblems().map((problem, index) => (
             <tr key={problem._id}
               className={`
         ${problem.done ? 'completed' : ''}
