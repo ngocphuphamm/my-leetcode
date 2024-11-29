@@ -6107,7 +6107,8 @@
         "percentage": "9.25289%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a1375e8e0a96c7af5fd846",
@@ -10987,7 +10988,8 @@
         "percentage": "69.4987%;"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a137748e0a96c7af5fd937",
@@ -23587,7 +23589,9 @@
     "_id": "640dc197f12a3834456524f3",
     "name": "Consecutive Numbers",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "consecutive-numbers",
     "companies": [
       {
@@ -23603,7 +23607,9 @@
     "_id": "640dc222fbc2aeb3929f1943",
     "name": "Maximum Number of Removable Characters",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "maximum-number-of-removable-characters",
     "companies": [
       {
@@ -23619,7 +23625,10 @@
     "_id": "640dc27ffbc2aeb3929f195d",
     "name": "Binary Tree Vertical Order Traversal",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree",
+      "Binary Tree"
+    ],
     "linkName": "binary-tree-vertical-order-traversal",
     "companies": [
       {
@@ -23635,7 +23644,9 @@
     "_id": "640dc284fbc2aeb3929f1961",
     "name": "Nested List Weight Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "nested-list-weight-sum",
     "companies": [
       {
@@ -23651,7 +23662,10 @@
     "_id": "640dc28ffbc2aeb3929f1966",
     "name": "Minimum Genetic Mutation",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Graph"
+    ],
     "linkName": "minimum-genetic-mutation",
     "companies": [
       {
@@ -23667,7 +23681,9 @@
     "_id": "640dc43250f8390b7181058f",
     "name": "Process Tasks Using Servers",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "process-tasks-using-servers",
     "companies": [
       {
@@ -23683,7 +23699,10 @@
     "_id": "640dcba588c28e65966d1198",
     "name": "Minimum Cost Homecoming of a Robot in a Grid",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Grid"
+    ],
     "linkName": "minimum-cost-homecoming-of-a-robot-in-a-grid",
     "companies": [],
     "done": false
@@ -23692,7 +23711,10 @@
     "_id": "640dcc85312e5dc5b4edd1b7",
     "name": "Maximal Network Rank",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Math"
+    ],
     "linkName": "maximal-network-rank",
     "companies": [],
     "done": false
@@ -23701,7 +23723,9 @@
     "_id": "640dcd1fabf98f02b1271c13",
     "name": "Exam Room",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "exam-room",
     "companies": [],
     "done": false
@@ -23710,7 +23734,10 @@
     "_id": "640dcd47abf98f02b1271c1a",
     "name": "Smallest Value of the Rearranged Number",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "smallest-value-of-the-rearranged-number",
     "companies": [],
     "done": false
@@ -23720,7 +23747,7 @@
     "name": "Reverse Nodes in Even Length Groups",
     "level": "Medium",
     "categories": [
-      "linked-list"
+      "Linked List"
     ],
     "linkName": "reverse-nodes-in-even-length-groups",
     "companies": [
@@ -23737,7 +23764,9 @@
     "_id": "640dc199f12a3834456524f4",
     "name": "Longest Increasing Subsequence",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "longest-increasing-subsequence",
     "companies": [
       {
@@ -23753,7 +23782,9 @@
     "_id": "640dc19ef12a383445652506",
     "name": "Word Subsets",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "word-subsets",
     "companies": [
       {
@@ -23769,7 +23800,10 @@
     "_id": "640dc285fbc2aeb3929f1962",
     "name": "Longest Substring with At Most K Distinct Characters",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Sliding Window"
+    ],
     "linkName": "longest-substring-with-at-most-k-distinct-characters",
     "companies": [
       {
@@ -23785,7 +23819,10 @@
     "_id": "640dc30ffbc2aeb3929f196e",
     "name": "Shortest Path to Get Food",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Breadth-First Search"
+    ],
     "linkName": "shortest-path-to-get-food",
     "companies": [
       {
@@ -23801,7 +23838,10 @@
     "_id": "640dc36efbc2aeb3929f199a",
     "name": "Most Stones Removed with Same Row or Column",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Greedy"
+    ],
     "linkName": "most-stones-removed-with-same-row-or-column",
     "companies": [
       {
@@ -23817,7 +23857,9 @@
     "_id": "640dc42650f8390b7181055c",
     "name": "Satisfiability of Equality Equations",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Union Find"
+    ],
     "linkName": "satisfiability-of-equality-equations",
     "companies": [
       {
@@ -23833,7 +23875,9 @@
     "_id": "640dc42950f8390b71810569",
     "name": "Longest String Chain",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "longest-string-chain",
     "companies": [
       {
@@ -23849,7 +23893,10 @@
     "_id": "640dc42c50f8390b71810579",
     "name": "Jump Game III",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Depth-First Search"
+    ],
     "linkName": "jump-game-iii",
     "companies": [
       {
@@ -23865,7 +23912,9 @@
     "_id": "640dc42e50f8390b7181057e",
     "name": "Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts",
     "companies": [
       {
@@ -23881,7 +23930,9 @@
     "_id": "640dc42e50f8390b7181057f",
     "name": "Active Users",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "active-users",
     "companies": [
       {
@@ -23897,7 +23948,10 @@
     "_id": "640dc42f50f8390b71810581",
     "name": "Check If Array Pairs Are Divisible by k",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Math"
+    ],
     "linkName": "check-if-array-pairs-are-divisible-by-k",
     "companies": [
       {
@@ -23913,7 +23967,10 @@
     "_id": "640dc43050f8390b71810588",
     "name": "Jump Game VI",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Sliding Window"
+    ],
     "linkName": "jump-game-vi",
     "companies": [
       {
@@ -23929,7 +23986,10 @@
     "_id": "640dc43250f8390b7181058e",
     "name": "Minimum Number of Swaps to Make the Binary String Alternating",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
     "companies": [
       {
@@ -23945,7 +24005,10 @@
     "_id": "640dc43350f8390b71810596",
     "name": "Step-By-Step Directions From a Binary Tree Node to Another",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree",
+      "Breadth-First Search"
+    ],
     "linkName": "step-by-step-directions-from-a-binary-tree-node-to-another",
     "companies": [
       {
@@ -23961,7 +24024,9 @@
     "_id": "640dc68e12efe1880e7657d4",
     "name": "Count Strictly Increasing Subarrays",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "count-strictly-increasing-subarrays",
     "companies": [],
     "done": false
@@ -23970,7 +24035,9 @@
     "_id": "640dc9b3b83e749b522786d6",
     "name": "The Earliest Moment When Everyone Become Friends",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "the-earliest-moment-when-everyone-become-friends",
     "companies": [],
     "done": false
@@ -23979,7 +24046,9 @@
     "_id": "640dc9b8b83e749b522786da",
     "name": "Filling Bookcase Shelves",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "filling-bookcase-shelves",
     "companies": [],
     "done": false
@@ -23988,7 +24057,9 @@
     "_id": "640dcb32903ff7bd0b6cef36",
     "name": "Maximum Number of Points with Cost",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-number-of-points-with-cost",
     "companies": [],
     "done": false
@@ -23997,7 +24068,10 @@
     "_id": "640dcb33903ff7bd0b6cef39",
     "name": "Detonate the Maximum Bombs",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Breadth-First Search"
+    ],
     "linkName": "detonate-the-maximum-bombs",
     "companies": [],
     "done": false
@@ -24006,7 +24080,9 @@
     "_id": "640dcb37903ff7bd0b6cef4f",
     "name": "Finding the Number of Visible Mountains",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "finding-the-number-of-visible-mountains",
     "companies": [],
     "done": false
@@ -24015,7 +24091,9 @@
     "_id": "640dcc86312e5dc5b4edd1ba",
     "name": "Find Missing Observations",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "find-missing-observations",
     "companies": [],
     "done": false
@@ -24024,7 +24102,9 @@
     "_id": "640dccddabf98f02b1271c05",
     "name": "All Ancestors of a Node in a Directed Acyclic Graph",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
     "companies": [],
     "done": false
@@ -24033,7 +24113,9 @@
     "_id": "640dcd73abf98f02b1271c21",
     "name": "Minimum Sum of Squared Difference",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "minimum-sum-of-squared-difference",
     "companies": [],
     "done": false
@@ -24043,8 +24125,8 @@
     "name": "Count Number of Homogenous Substrings",
     "level": "Medium",
     "categories": [
-      "math",
-      "string"
+      "Math",
+      "String"
     ],
     "linkName": "count-number-of-homogenous-substrings",
     "companies": [
@@ -24061,7 +24143,9 @@
     "_id": "640dc244fbc2aeb3929f1946",
     "name": "Longest Substring with At Most Two Distinct Characters",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "longest-substring-with-at-most-two-distinct-characters",
     "companies": [
       {
@@ -24077,7 +24161,9 @@
     "_id": "640dc27dfbc2aeb3929f195c",
     "name": "Best Time to Buy and Sell Stock with Cooldown",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "best-time-to-buy-and-sell-stock-with-cooldown",
     "companies": [
       {
@@ -24093,7 +24179,10 @@
     "_id": "640dc280fbc2aeb3929f195e",
     "name": "Number of Connected Components in an Undirected Graph",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Depth-First Search"
+    ],
     "linkName": "number-of-connected-components-in-an-undirected-graph",
     "companies": [
       {
@@ -24109,7 +24198,9 @@
     "_id": "640dc289fbc2aeb3929f1965",
     "name": "Find Leaves of Binary Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "find-leaves-of-binary-tree",
     "companies": [
       {
@@ -24125,7 +24216,10 @@
     "_id": "640dc334fbc2aeb3929f196f",
     "name": "Next Greater Element III",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Stack"
+    ],
     "linkName": "next-greater-element-iii",
     "companies": [
       {
@@ -24141,7 +24235,10 @@
     "_id": "640dc364fbc2aeb3929f1992",
     "name": "Possible Bipartition",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Union Find"
+    ],
     "linkName": "possible-bipartition",
     "companies": [
       {
@@ -24157,7 +24254,9 @@
     "_id": "640dc43150f8390b71810589",
     "name": "Find Distance in a Binary Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "find-distance-in-a-binary-tree",
     "companies": [
       {
@@ -24173,7 +24272,9 @@
     "_id": "640dc43650f8390b718105aa",
     "name": "Number of People Aware of a Secret",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "number-of-people-aware-of-a-secret",
     "companies": [
       {
@@ -24189,7 +24290,9 @@
     "_id": "640dc67412efe1880e7657c5",
     "name": "Candy Crush",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "candy-crush",
     "companies": [],
     "done": false
@@ -24198,7 +24301,9 @@
     "_id": "640dc69512efe1880e7657d6",
     "name": "Maximum Sum of Two Non-Overlapping Subarrays",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-sum-of-two-non-overlapping-subarrays",
     "companies": [],
     "done": false
@@ -24207,7 +24312,9 @@
     "_id": "640dc91a28d50e7ec012486d",
     "name": "Friends Of Appropriate Ages",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "friends-of-appropriate-ages",
     "companies": [],
     "done": false
@@ -24216,7 +24323,9 @@
     "_id": "640dcb34903ff7bd0b6cef3f",
     "name": "Removing Minimum Number of Magic Beans",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "removing-minimum-number-of-magic-beans",
     "companies": [],
     "done": false
@@ -24225,7 +24334,9 @@
     "_id": "640dcbf988c28e65966d11a8",
     "name": "Maximum Points in an Archery Competition",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "maximum-points-in-an-archery-competition",
     "companies": [],
     "done": false
@@ -24234,7 +24345,9 @@
     "_id": "640dcc80312e5dc5b4edd1b3",
     "name": "Design Linked List",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Linked List"
+    ],
     "linkName": "design-linked-list",
     "companies": [],
     "done": false
@@ -24243,7 +24356,10 @@
     "_id": "640dcd87abf98f02b1271c25",
     "name": "Find a Peak Element II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Binary Search"
+    ],
     "linkName": "find-a-peak-element-ii",
     "companies": [],
     "done": false
@@ -24252,7 +24368,10 @@
     "_id": "640dc19df12a383445652500",
     "name": "All Paths From Source to Target",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Depth-First Search"
+    ],
     "linkName": "all-paths-from-source-to-target",
     "companies": [
       {
@@ -24268,7 +24387,9 @@
     "_id": "640dc1eafbc2aeb3929f1938",
     "name": "Flatten 2D Vector",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design"
+    ],
     "linkName": "flatten-2d-vector",
     "companies": [
       {
@@ -24284,7 +24405,10 @@
     "_id": "640dc201fbc2aeb3929f193e",
     "name": "Cheapest Flights Within K Stops",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Breadth-First Search"
+    ],
     "linkName": "cheapest-flights-within-k-stops",
     "companies": [
       {
@@ -24300,7 +24424,9 @@
     "_id": "640dc340fbc2aeb3929f1978",
     "name": "Employee Importance",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "employee-importance",
     "companies": [
       {
@@ -24316,7 +24442,9 @@
     "_id": "640dc36cfbc2aeb3929f1998",
     "name": "Reorder Data in Log Files",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "reorder-data-in-log-files",
     "companies": [
       {
@@ -24332,7 +24460,9 @@
     "_id": "640dc36ffbc2aeb3929f199b",
     "name": "Largest Time for Given Digits",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "largest-time-for-given-digits",
     "companies": [
       {
@@ -24348,7 +24478,9 @@
     "_id": "640dc42850f8390b71810565",
     "name": "Robot Bounded In Circle",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "robot-bounded-in-circle",
     "companies": [
       {
@@ -24364,7 +24496,9 @@
     "_id": "640dc42a50f8390b7181056d",
     "name": "Invalid Transactions",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "invalid-transactions",
     "companies": [
       {
@@ -24380,7 +24514,9 @@
     "_id": "640dc43450f8390b7181059b",
     "name": "Find Triangular Sum of an Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "find-triangular-sum-of-an-array",
     "companies": [
       {
@@ -24396,7 +24532,9 @@
     "_id": "640dc43750f8390b718105b4",
     "name": "Divide Intervals Into Minimum Number of Groups",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "divide-intervals-into-minimum-number-of-groups",
     "companies": [
       {
@@ -24412,7 +24550,10 @@
     "_id": "640dc67512efe1880e7657c7",
     "name": "Longest Mountain in Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Greedy"
+    ],
     "linkName": "longest-mountain-in-array",
     "companies": [],
     "done": false
@@ -24421,7 +24562,9 @@
     "_id": "640dc67712efe1880e7657c9",
     "name": "Shortest Path with Alternating Colors",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "shortest-path-with-alternating-colors",
     "companies": [],
     "done": false
@@ -24430,7 +24573,10 @@
     "_id": "640dc74912efe1880e7657ea",
     "name": "Path With Maximum Minimum Value",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Binary Search"
+    ],
     "linkName": "path-with-maximum-minimum-value",
     "companies": [],
     "done": false
@@ -24439,7 +24585,9 @@
     "_id": "640dc80f48cdc07fdba84d57",
     "name": "Grumpy Bookstore Owner",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "grumpy-bookstore-owner",
     "companies": [],
     "done": false
@@ -24448,7 +24596,9 @@
     "_id": "640dc91c28d50e7ec0124870",
     "name": "Lowest Common Ancestor of Deepest Leaves",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "lowest-common-ancestor-of-deepest-leaves",
     "companies": [],
     "done": false
@@ -24457,7 +24607,10 @@
     "_id": "640dc9abb83e749b522786d1",
     "name": "Hand of Straights",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Greedy"
+    ],
     "linkName": "hand-of-straights",
     "companies": [],
     "done": false
@@ -24466,7 +24619,9 @@
     "_id": "640dcb34903ff7bd0b6cef3d",
     "name": "Remove All Ones With Row and Column Flips",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix"
+    ],
     "linkName": "remove-all-ones-with-row-and-column-flips",
     "companies": [],
     "done": false
@@ -24475,7 +24630,9 @@
     "_id": "640dcb35903ff7bd0b6cef47",
     "name": "Maximum White Tiles Covered by a Carpet",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "maximum-white-tiles-covered-by-a-carpet",
     "companies": [],
     "done": false
@@ -24484,7 +24641,9 @@
     "_id": "640dcc0388c28e65966d11aa",
     "name": "Shortest Word Distance III",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "shortest-word-distance-iii",
     "companies": [],
     "done": false
@@ -24494,9 +24653,9 @@
     "name": "Maximum XOR for Each Query",
     "level": "Medium",
     "categories": [
-      "array",
-      "bit-manipulation",
-      "prefix-sum"
+      "Array",
+      "Bit Manipulation",
+      "Prefix Sum"
     ],
     "linkName": "maximum-xor-for-each-query",
     "companies": [
@@ -24513,7 +24672,9 @@
     "_id": "640dc1fffbc2aeb3929f193c",
     "name": "Pour Water",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "pour-water",
     "companies": [
       {
@@ -24529,7 +24690,9 @@
     "_id": "640dc24cfbc2aeb3929f194c",
     "name": "Department Highest Salary",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "department-highest-salary",
     "companies": [
       {
@@ -24545,7 +24708,10 @@
     "_id": "640dc274fbc2aeb3929f1956",
     "name": "Graph Valid Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Union Find"
+    ],
     "linkName": "graph-valid-tree",
     "companies": [
       {
@@ -24561,7 +24727,9 @@
     "_id": "640dc33ffbc2aeb3929f1977",
     "name": "Next Closest Time",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "next-closest-time",
     "companies": [
       {
@@ -24577,7 +24745,10 @@
     "_id": "640dc368fbc2aeb3929f1995",
     "name": "Sum of Subarray Minimums",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Stack",
+      "Dynamic Programming"
+    ],
     "linkName": "sum-of-subarray-minimums",
     "companies": [
       {
@@ -24593,7 +24764,10 @@
     "_id": "640dc370fbc2aeb3929f199c",
     "name": "Maximum Width Ramp",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Greedy"
+    ],
     "linkName": "maximum-width-ramp",
     "companies": [
       {
@@ -24609,7 +24783,9 @@
     "_id": "640dc43450f8390b7181059c",
     "name": "Number of Ways to Select Buildings",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "number-of-ways-to-select-buildings",
     "companies": [
       {
@@ -24625,7 +24801,9 @@
     "_id": "640dc6b512efe1880e7657da",
     "name": "Range Addition",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "range-addition",
     "companies": [],
     "done": false
@@ -24634,7 +24812,9 @@
     "_id": "640dc70e12efe1880e7657e2",
     "name": "Web Crawler Multithreaded",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Concurrency"
+    ],
     "linkName": "web-crawler-multithreaded",
     "companies": [],
     "done": false
@@ -24643,7 +24823,9 @@
     "_id": "640dc9adb83e749b522786d2",
     "name": "Binary Subarrays With Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "binary-subarrays-with-sum",
     "companies": [],
     "done": false
@@ -24652,7 +24834,9 @@
     "_id": "640dcb36903ff7bd0b6cef48",
     "name": "Move Pieces to Obtain a String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "move-pieces-to-obtain-a-string",
     "companies": [],
     "done": false
@@ -24661,7 +24845,9 @@
     "_id": "640dcbd888c28e65966d11a3",
     "name": "Clumsy Factorial",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "clumsy-factorial",
     "companies": [],
     "done": false
@@ -24670,7 +24856,10 @@
     "_id": "640dcc0788c28e65966d11ab",
     "name": "Design Bounded Blocking Queue",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Concurrency"
+    ],
     "linkName": "design-bounded-blocking-queue",
     "companies": [],
     "done": false
@@ -24679,7 +24868,9 @@
     "_id": "640dcd58abf98f02b1271c1c",
     "name": "Minimum Increment to Make Array Unique",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "minimum-increment-to-make-array-unique",
     "companies": [],
     "done": false
@@ -24689,10 +24880,10 @@
     "name": "Remove Colored Pieces if Both Neighbors are the Same Color",
     "level": "Medium",
     "categories": [
-      "math",
-      "string",
-      "greedy",
-      "game-theory"
+      "Math",
+      "String",
+      "Greedy",
+      "Game Theory"
     ],
     "linkName": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
     "companies": [
@@ -24721,7 +24912,9 @@
     "_id": "640dc19df12a383445652501",
     "name": "Mirror Reflection",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "mirror-reflection",
     "companies": [
       {
@@ -24737,7 +24930,9 @@
     "_id": "640dc19df12a383445652504",
     "name": "Reordered Power of 2",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "reordered-power-of-2",
     "companies": [
       {
@@ -24753,7 +24948,9 @@
     "_id": "640dc19ef12a383445652505",
     "name": "All Possible Full Binary Trees",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "all-possible-full-binary-trees",
     "companies": [
       {
@@ -24769,7 +24966,9 @@
     "_id": "640dc2fdfbc2aeb3929f196d",
     "name": "Number of Provinces",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "number-of-provinces",
     "companies": [
       {
@@ -24785,7 +24984,10 @@
     "_id": "640dc34efbc2aeb3929f1984",
     "name": "Is Graph Bipartite?",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Breadth-First Search"
+    ],
     "linkName": "is-graph-bipartite",
     "companies": [
       {
@@ -24801,7 +25003,9 @@
     "_id": "640dc42750f8390b71810560",
     "name": "Binary String With Substrings Representing 1 To N",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "binary-string-with-substrings-representing-1-to-n",
     "companies": [
       {
@@ -24817,7 +25021,10 @@
     "_id": "640dc43150f8390b7181058d",
     "name": "Maximum Subarray Min-Product",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-subarray-min-product",
     "companies": [
       {
@@ -24833,7 +25040,9 @@
     "_id": "640dc43450f8390b7181059a",
     "name": "Append K Integers With Minimal Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "append-k-integers-with-minimal-sum",
     "companies": [
       {
@@ -24849,7 +25058,9 @@
     "_id": "640dc43550f8390b718105a4",
     "name": "Apply Discount to Prices",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "apply-discount-to-prices",
     "companies": [
       {
@@ -24865,7 +25076,9 @@
     "_id": "640dc43750f8390b718105b3",
     "name": "Optimal Partition of String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "optimal-partition-of-string",
     "companies": [
       {
@@ -24881,7 +25094,10 @@
     "_id": "640dc47d50f8390b718105c2",
     "name": "Number of Dice Rolls With Target Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Math"
+    ],
     "linkName": "number-of-dice-rolls-with-target-sum",
     "companies": [
       {
@@ -24897,7 +25113,10 @@
     "_id": "640dc974b83e749b522786c5",
     "name": "Longest Subarray With Maximum Bitwise AND",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Bit Manipulation"
+    ],
     "linkName": "longest-subarray-with-maximum-bitwise-and",
     "companies": [],
     "done": false
@@ -24906,7 +25125,10 @@
     "_id": "640dcb32903ff7bd0b6cef37",
     "name": "Minimum Number of Work Sessions to Finish the Tasks",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Greedy"
+    ],
     "linkName": "minimum-number-of-work-sessions-to-finish-the-tasks",
     "companies": [],
     "done": false
@@ -24915,7 +25137,10 @@
     "_id": "640dcb34903ff7bd0b6cef3e",
     "name": "Maximum Split of Positive Even Integers",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Greedy"
+    ],
     "linkName": "maximum-split-of-positive-even-integers",
     "companies": [],
     "done": false
@@ -24924,7 +25149,10 @@
     "_id": "640dcc2c88c28e65966d11b1",
     "name": "Wiggle Sort",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Sorting"
+    ],
     "linkName": "wiggle-sort",
     "companies": [],
     "done": false
@@ -24933,7 +25161,10 @@
     "_id": "640dcd50abf98f02b1271c1b",
     "name": "Longest Substring Of All Vowels in Order",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Dynamic Programming"
+    ],
     "linkName": "longest-substring-of-all-vowels-in-order",
     "companies": [],
     "done": false
@@ -24942,7 +25173,10 @@
     "_id": "640dc196f12a3834456524f1",
     "name": "Word Break",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Dynamic Programming"
+    ],
     "linkName": "word-break",
     "companies": [
       {
@@ -24958,7 +25192,10 @@
     "_id": "640dc19ff12a38344565250a",
     "name": "Meeting Scheduler",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy",
+      "Sorting"
+    ],
     "linkName": "meeting-scheduler",
     "companies": [
       {
@@ -24974,7 +25211,9 @@
     "_id": "640dc1a1f12a383445652512",
     "name": "Delete the Middle Node of a Linked List",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Linked List"
+    ],
     "linkName": "delete-the-middle-node-of-a-linked-list",
     "companies": [
       {
@@ -24990,7 +25229,9 @@
     "_id": "640dc209fbc2aeb3929f1941",
     "name": "Inorder Successor in BST II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search Tree"
+    ],
     "linkName": "inorder-successor-in-bst-ii",
     "companies": [
       {
@@ -25006,7 +25247,9 @@
     "_id": "640dc246fbc2aeb3929f1947",
     "name": "Second Highest Salary",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "second-highest-salary",
     "companies": [
       {
@@ -25022,7 +25265,10 @@
     "_id": "640dc346fbc2aeb3929f197d",
     "name": "Accounts Merge",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Union Find"
+    ],
     "linkName": "accounts-merge",
     "companies": [
       {
@@ -25038,7 +25284,9 @@
     "_id": "640dc42f50f8390b71810580",
     "name": "Avoid Flood in The City",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "avoid-flood-in-the-city",
     "companies": [
       {
@@ -25054,7 +25302,9 @@
     "_id": "640dc43350f8390b71810594",
     "name": "Find Good Days to Rob the Bank",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "find-good-days-to-rob-the-bank",
     "companies": [
       {
@@ -25070,7 +25320,9 @@
     "_id": "640dc47a50f8390b718105be",
     "name": "Remove Comments",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "remove-comments",
     "companies": [
       {
@@ -25086,7 +25338,9 @@
     "_id": "640dcb31903ff7bd0b6cef32",
     "name": "Maximum Number of Accepted Invitations",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-number-of-accepted-invitations",
     "companies": [],
     "done": false
@@ -25095,7 +25349,10 @@
     "_id": "640dcb36903ff7bd0b6cef4b",
     "name": "Count Number of Bad Pairs",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Counting"
+    ],
     "linkName": "count-number-of-bad-pairs",
     "companies": [],
     "done": false
@@ -25104,7 +25361,10 @@
     "_id": "640dcbe788c28e65966d11a5",
     "name": "Largest Combination With Bitwise AND Greater Than Zero",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Bit Manipulation"
+    ],
     "linkName": "largest-combination-with-bitwise-and-greater-than-zero",
     "companies": [],
     "done": false
@@ -25114,8 +25374,8 @@
     "name": "Minimum Moves to Reach Target Score",
     "level": "Medium",
     "categories": [
-      "math",
-      "greedy"
+      "Math",
+      "Dynamic Programming"
     ],
     "linkName": "minimum-moves-to-reach-target-score",
     "companies": [
@@ -25138,7 +25398,10 @@
     "_id": "640dc19bf12a3834456524fa",
     "name": "Next Greater Element II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Stack"
+    ],
     "linkName": "next-greater-element-ii",
     "companies": [
       {
@@ -25154,7 +25417,10 @@
     "_id": "640dc23afbc2aeb3929f1945",
     "name": "Populating Next Right Pointers in Each Node II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Breadth-First Search"
+    ],
     "linkName": "populating-next-right-pointers-in-each-node-ii",
     "companies": [
       {
@@ -25170,7 +25436,10 @@
     "_id": "640dc351fbc2aeb3929f1986",
     "name": "Find Eventual Safe States",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Depth-First Search"
+    ],
     "linkName": "find-eventual-safe-states",
     "companies": [
       {
@@ -25186,7 +25455,10 @@
     "_id": "640dc42750f8390b7181055e",
     "name": "Capacity To Ship Packages Within D Days",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search",
+      "Greedy"
+    ],
     "linkName": "capacity-to-ship-packages-within-d-days",
     "companies": [
       {
@@ -25202,7 +25474,9 @@
     "_id": "640dc42750f8390b7181055f",
     "name": "Missing Element in Sorted Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search"
+    ],
     "linkName": "missing-element-in-sorted-array",
     "companies": [
       {
@@ -25218,7 +25492,10 @@
     "_id": "640dc42c50f8390b71810577",
     "name": "First Unique Number",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Hash Table",
+      "Queue"
+    ],
     "linkName": "first-unique-number",
     "companies": [
       {
@@ -25234,7 +25511,10 @@
     "_id": "640dc43450f8390b7181059f",
     "name": "Count Nodes Equal to Average of Subtree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Depth-First Search"
+    ],
     "linkName": "count-nodes-equal-to-average-of-subtree",
     "companies": [
       {
@@ -25250,7 +25530,9 @@
     "_id": "640dc47650f8390b718105ba",
     "name": "Sparse Matrix Multiplication",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix"
+    ],
     "linkName": "sparse-matrix-multiplication",
     "companies": [
       {
@@ -25266,7 +25548,10 @@
     "_id": "640dc9a3b83e749b522786c9",
     "name": "My Calendar II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Data Structure"
+    ],
     "linkName": "my-calendar-ii",
     "companies": [],
     "done": true
@@ -25275,7 +25560,11 @@
     "_id": "640dcb32903ff7bd0b6cef35",
     "name": "Count Pairs in Two Arrays",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Math",
+      "Sorting"
+    ],
     "linkName": "count-pairs-in-two-arrays",
     "companies": [],
     "done": false
@@ -25284,7 +25573,10 @@
     "_id": "640dcb35903ff7bd0b6cef45",
     "name": "Count Number of Rectangles Containing Each Point",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Geometry"
+    ],
     "linkName": "count-number-of-rectangles-containing-each-point",
     "companies": [],
     "done": false
@@ -25293,7 +25585,9 @@
     "_id": "640dcb9988c28e65966d1196",
     "name": "Reconstruct a 2-Row Binary Matrix",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix"
+    ],
     "linkName": "reconstruct-a-2-row-binary-matrix",
     "companies": [],
     "done": false
@@ -25302,7 +25596,9 @@
     "_id": "640dcbb588c28e65966d119b",
     "name": "Game Play Analysis III",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "SQL"
+    ],
     "linkName": "game-play-analysis-iii",
     "companies": [],
     "done": false
@@ -25311,7 +25607,10 @@
     "_id": "640dcbfd88c28e65966d11a9",
     "name": "Minimum Jumps to Reach Home",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Breadth-First Search"
+    ],
     "linkName": "minimum-jumps-to-reach-home",
     "companies": [],
     "done": false
@@ -25320,7 +25619,10 @@
     "_id": "640dcc84312e5dc5b4edd1b5",
     "name": "Number of Steps to Reduce a Number in Binary Representation to One",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Bit Manipulation"
+    ],
     "linkName": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
     "companies": [],
     "done": false
@@ -25329,7 +25631,10 @@
     "_id": "640dcd0dabf98f02b1271c0f",
     "name": "Evaluate Boolean Expression",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Recursion"
+    ],
     "linkName": "evaluate-boolean-expression",
     "companies": [],
     "done": false
@@ -25338,7 +25643,9 @@
     "_id": "640dcd83abf98f02b1271c24",
     "name": "Number of Accounts That Did Not Stream",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "number-of-accounts-that-did-not-stream",
     "companies": [],
     "done": false
@@ -25347,7 +25654,9 @@
     "_id": "640dc33efbc2aeb3929f1976",
     "name": "Trim a Binary Search Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search Tree"
+    ],
     "linkName": "trim-a-binary-search-tree",
     "companies": [
       {
@@ -25363,7 +25672,10 @@
     "_id": "640dc363fbc2aeb3929f1991",
     "name": "Koko Eating Bananas",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy",
+      "Binary Search"
+    ],
     "linkName": "koko-eating-bananas",
     "companies": [
       {
@@ -25379,7 +25691,9 @@
     "_id": "640dc42850f8390b71810564",
     "name": "Minimum Score Triangulation of Polygon",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "minimum-score-triangulation-of-polygon",
     "companies": [
       {
@@ -25395,7 +25709,10 @@
     "_id": "640dc42850f8390b71810568",
     "name": "Minimum Cost to Connect Sticks",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy",
+      "Heap"
+    ],
     "linkName": "minimum-cost-to-connect-sticks",
     "companies": [
       {
@@ -25411,7 +25728,10 @@
     "_id": "640dc42950f8390b7181056c",
     "name": "Minimum Cost Tree From Leaf Values",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Dynamic Programming"
+    ],
     "linkName": "minimum-cost-tree-from-leaf-values",
     "companies": [
       {
@@ -25427,7 +25747,10 @@
     "_id": "640dc42a50f8390b71810570",
     "name": "Longest Happy String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "longest-happy-string",
     "companies": [
       {
@@ -25443,7 +25766,10 @@
     "_id": "640dc42b50f8390b71810572",
     "name": "Smallest String With Swaps",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Union Find"
+    ],
     "linkName": "smallest-string-with-swaps",
     "companies": [
       {
@@ -25459,7 +25785,9 @@
     "_id": "640dc42f50f8390b71810583",
     "name": "Dot Product of Two Sparse Vectors",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Hash Table"
+    ],
     "linkName": "dot-product-of-two-sparse-vectors",
     "companies": [
       {
@@ -25475,7 +25803,10 @@
     "_id": "640dc43750f8390b718105b0",
     "name": "Amount of Time for Binary Tree to Be Infected",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Breadth-First Search"
+    ],
     "linkName": "amount-of-time-for-binary-tree-to-be-infected",
     "companies": [
       {
@@ -25491,7 +25822,10 @@
     "_id": "640dc47650f8390b718105bb",
     "name": "Maximum Size Subarray Sum Equals k",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Prefix Sum"
+    ],
     "linkName": "maximum-size-subarray-sum-equals-k",
     "companies": [
       {
@@ -25507,7 +25841,9 @@
     "_id": "640dc9bcb83e749b522786dd",
     "name": "Longest Arithmetic Subsequence of Given Difference",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "longest-arithmetic-subsequence-of-given-difference",
     "companies": [],
     "done": false
@@ -25516,7 +25852,9 @@
     "_id": "640dc9cbb83e749b522786e8",
     "name": "Merge In Between Linked Lists",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Linked List"
+    ],
     "linkName": "merge-in-between-linked-lists",
     "companies": [],
     "done": false
@@ -25525,7 +25863,9 @@
     "_id": "640dcb34903ff7bd0b6cef3c",
     "name": "Minimum Cost to Set Cooking Time",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "minimum-cost-to-set-cooking-time",
     "companies": [],
     "done": false
@@ -25534,7 +25874,9 @@
     "_id": "640dcbd588c28e65966d11a2",
     "name": "All the Pairs With the Maximum Number of Common Followers",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "all-the-pairs-with-the-maximum-number-of-common-followers",
     "companies": [],
     "done": false
@@ -25543,7 +25885,10 @@
     "_id": "640dcbea88c28e65966d11a6",
     "name": "Operations on Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree",
+      "Dynamic Programming"
+    ],
     "linkName": "operations-on-tree",
     "companies": [],
     "done": false
@@ -25552,7 +25897,10 @@
     "_id": "640dcc85312e5dc5b4edd1b6",
     "name": "Min Cost to Connect All Points",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy",
+      "Minimum Spanning Tree"
+    ],
     "linkName": "min-cost-to-connect-all-points",
     "companies": [],
     "done": false
@@ -25561,7 +25909,10 @@
     "_id": "640dcce7abf98f02b1271c07",
     "name": "Complete Binary Tree Inserter",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Design"
+    ],
     "linkName": "complete-binary-tree-inserter",
     "companies": [],
     "done": false
@@ -25570,7 +25921,10 @@
     "_id": "640dcd35abf98f02b1271c17",
     "name": "Minimum Number of Frogs Croaking",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "minimum-number-of-frogs-croaking",
     "companies": [],
     "done": false
@@ -25580,10 +25934,9 @@
     "name": "Construct K Palindrome Strings",
     "level": "Medium",
     "categories": [
-      "hash-table",
-      "string",
-      "greedy",
-      "counting"
+      "String",
+      "Greedy",
+      "Hash Table"
     ],
     "linkName": "construct-k-palindrome-strings",
     "companies": [
@@ -25600,7 +25953,10 @@
     "_id": "640dc191f12a3834456524ec",
     "name": "Find the Index of the First Occurrence in a String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Binary Search"
+    ],
     "linkName": "find-the-index-of-the-first-occurrence-in-a-string",
     "companies": [
       {
@@ -25616,7 +25972,10 @@
     "_id": "640dc26cfbc2aeb3929f1954",
     "name": "Meeting Rooms II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Heap (Priority Queue)",
+      "Sorting"
+    ],
     "linkName": "meeting-rooms-ii",
     "companies": [
       {
@@ -25632,7 +25991,9 @@
     "_id": "640dc2c5fbc2aeb3929f1969",
     "name": "Coin Change II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "coin-change-ii",
     "companies": [
       {
@@ -25648,7 +26009,10 @@
     "_id": "640dc33afbc2aeb3929f1973",
     "name": "Exclusive Time of Functions",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Stack",
+      "Simulation"
+    ],
     "linkName": "exclusive-time-of-functions",
     "companies": [
       {
@@ -25664,7 +26028,10 @@
     "_id": "640dc36afbc2aeb3929f1997",
     "name": "Flip String to Monotone Increasing",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "flip-string-to-monotone-increasing",
     "companies": [
       {
@@ -25680,7 +26047,9 @@
     "_id": "640dc42b50f8390b71810574",
     "name": "Where Will the Ball Fall",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "where-will-the-ball-fall",
     "companies": [
       {
@@ -25696,7 +26065,10 @@
     "_id": "640dc47650f8390b718105b9",
     "name": "Peeking Iterator",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Iterator"
+    ],
     "linkName": "peeking-iterator",
     "companies": [
       {
@@ -25712,7 +26084,9 @@
     "_id": "640dc67712efe1880e7657cb",
     "name": "Web Crawler",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "web-crawler",
     "companies": [],
     "done": false
@@ -25721,7 +26095,9 @@
     "_id": "640dc67912efe1880e7657ce",
     "name": "Minimum Time to Make Rope Colorful",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "minimum-time-to-make-rope-colorful",
     "companies": [],
     "done": false
@@ -25730,7 +26106,9 @@
     "_id": "640dc9a7b83e749b522786cd",
     "name": "Construct Quad Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "construct-quad-tree",
     "companies": [],
     "done": false
@@ -25739,7 +26117,10 @@
     "_id": "640dc9bdb83e749b522786de",
     "name": "Number of Closed Islands",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Depth-First Search"
+    ],
     "linkName": "number-of-closed-islands",
     "companies": [],
     "done": false
@@ -25748,7 +26129,9 @@
     "_id": "640dcb35903ff7bd0b6cef44",
     "name": "Number of Ways to Build Sturdy Brick Wall",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "number-of-ways-to-build-sturdy-brick-wall",
     "companies": [],
     "done": false
@@ -25757,7 +26140,9 @@
     "_id": "640dcbdf88c28e65966d11a4",
     "name": "Minimum Suffix Flips",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "minimum-suffix-flips",
     "companies": [],
     "done": false
@@ -25766,7 +26151,10 @@
     "_id": "640dc183f12a3834456524ea",
     "name": "Number of Operations to Make Network Connected",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Union Find"
+    ],
     "linkName": "number-of-operations-to-make-network-connected",
     "companies": [
       {
@@ -25782,7 +26170,10 @@
     "_id": "640dc1e4fbc2aeb3929f1937",
     "name": "Design Hit Counter",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Data Stream"
+    ],
     "linkName": "design-hit-counter",
     "companies": [
       {
@@ -25798,7 +26189,9 @@
     "_id": "640dc1fefbc2aeb3929f193b",
     "name": "IP to CIDR",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Bit Manipulation"
+    ],
     "linkName": "ip-to-cidr",
     "companies": [
       {
@@ -25814,7 +26207,9 @@
     "_id": "640dc248fbc2aeb3929f1948",
     "name": "Nth Highest Salary",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "nth-highest-salary",
     "companies": [
       {
@@ -25830,7 +26225,9 @@
     "_id": "640dc249fbc2aeb3929f1949",
     "name": "Rank Scores",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "rank-scores",
     "companies": [
       {
@@ -25846,7 +26243,10 @@
     "_id": "640dc266fbc2aeb3929f1951",
     "name": "Design Add and Search Words Data Structure",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Trie"
+    ],
     "linkName": "design-add-and-search-words-data-structure",
     "companies": [
       {
@@ -25862,7 +26262,10 @@
     "_id": "640dc279fbc2aeb3929f1959",
     "name": "Find the Celebrity",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Depth-First Search"
+    ],
     "linkName": "find-the-celebrity",
     "companies": [
       {
@@ -25878,7 +26281,10 @@
     "_id": "640dc43050f8390b71810587",
     "name": "Lowest Common Ancestor of a Binary Tree III",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Depth-First Search"
+    ],
     "linkName": "lowest-common-ancestor-of-a-binary-tree-iii",
     "companies": [
       {
@@ -25894,7 +26300,10 @@
     "_id": "640dc43350f8390b71810598",
     "name": "Sum of Subarray Ranges",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Math"
+    ],
     "linkName": "sum-of-subarray-ranges",
     "companies": [
       {
@@ -25910,7 +26319,10 @@
     "_id": "640dc43650f8390b718105a9",
     "name": "Minimum Number of Keypresses",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "minimum-number-of-keypresses",
     "companies": [
       {
@@ -25926,7 +26338,9 @@
     "_id": "640dc64f12efe1880e7657c2",
     "name": "Length of Longest Fibonacci Subsequence",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "length-of-longest-fibonacci-subsequence",
     "companies": [],
     "done": false
@@ -25935,7 +26349,10 @@
     "_id": "640dc67712efe1880e7657c8",
     "name": "Design A Leaderboard",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Hash Table"
+    ],
     "linkName": "design-a-leaderboard",
     "companies": [],
     "done": false
@@ -25944,7 +26361,10 @@
     "_id": "640dc67912efe1880e7657cf",
     "name": "Minimum Deletions to Make Character Frequencies Unique",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "minimum-deletions-to-make-character-frequencies-unique",
     "companies": [],
     "done": false
@@ -25953,7 +26373,9 @@
     "_id": "640dc91a28d50e7ec012486c",
     "name": "Insert into a Sorted Circular Linked List",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Linked List"
+    ],
     "linkName": "insert-into-a-sorted-circular-linked-list",
     "companies": [],
     "done": false
@@ -25962,7 +26384,10 @@
     "_id": "640dc9a8b83e749b522786ce",
     "name": "Valid Tic-Tac-Toe State",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Simulation"
+    ],
     "linkName": "valid-tic-tac-toe-state",
     "companies": [],
     "done": false
@@ -25971,7 +26396,10 @@
     "_id": "640dc9b4b83e749b522786d7",
     "name": "Parallel Courses",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Graph"
+    ],
     "linkName": "parallel-courses",
     "companies": [],
     "done": false
@@ -25980,7 +26408,9 @@
     "_id": "640dcb32903ff7bd0b6cef38",
     "name": "Detect Squares",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Hash Table"
+    ],
     "linkName": "detect-squares",
     "companies": [],
     "done": false
@@ -25989,7 +26419,9 @@
     "_id": "640dcd95abf98f02b1271c26",
     "name": "Image Overlap",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix"
+    ],
     "linkName": "image-overlap",
     "companies": [],
     "done": false
@@ -25999,10 +26431,9 @@
     "name": "Find Bottom Left Tree Value",
     "level": "Medium",
     "categories": [
-      "tree",
-      "depth-first-search",
-      "breadth-first-search",
-      "binary-tree"
+      "Binary Tree",
+      "Depth-First Search",
+      "Breadth-First Search"
     ],
     "linkName": "find-bottom-left-tree-value",
     "companies": [
@@ -26020,9 +26451,8 @@
     "name": "Minimum Number of Steps to Make Two Strings Anagram II",
     "level": "Medium",
     "categories": [
-      "hash-table",
-      "string",
-      "counting"
+      "String",
+      "Hash Table"
     ],
     "linkName": "minimum-number-of-steps-to-make-two-strings-anagram-ii",
     "companies": [
@@ -26040,7 +26470,9 @@
     "_id": "640dc19ef12a383445652508",
     "name": "Numbers With Same Consecutive Differences",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "numbers-with-same-consecutive-differences",
     "companies": [
       {
@@ -26056,7 +26488,10 @@
     "_id": "640dc276fbc2aeb3929f1958",
     "name": "Encode and Decode Strings",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Design"
+    ],
     "linkName": "encode-and-decode-strings",
     "companies": [
       {
@@ -26072,7 +26507,10 @@
     "_id": "640dc287fbc2aeb3929f1964",
     "name": "Design Tic-Tac-Toe",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Game Theory"
+    ],
     "linkName": "design-tic-tac-toe",
     "companies": [
       {
@@ -26088,7 +26526,10 @@
     "_id": "640dc2fbfbc2aeb3929f196c",
     "name": "Boundary of Binary Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Depth-First Search"
+    ],
     "linkName": "boundary-of-binary-tree",
     "companies": [
       {
@@ -26104,7 +26545,10 @@
     "_id": "640dc34cfbc2aeb3929f1982",
     "name": "Swap Adjacent in LR String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "swap-adjacent-in-lr-string",
     "companies": [
       {
@@ -26120,7 +26564,9 @@
     "_id": "640dc42650f8390b7181055b",
     "name": "Minimum Cost For Tickets",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "minimum-cost-for-tickets",
     "companies": [
       {
@@ -26136,7 +26582,10 @@
     "_id": "640dc42850f8390b71810563",
     "name": "Minimum Swaps to Group All 1's Together",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Greedy"
+    ],
     "linkName": "minimum-swaps-to-group-all-1s-together",
     "companies": [
       {
@@ -26152,7 +26601,9 @@
     "_id": "640dc43250f8390b71810590",
     "name": "Remove Stones to Minimize the Total",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "remove-stones-to-minimize-the-total",
     "companies": [
       {
@@ -26168,7 +26619,9 @@
     "_id": "640dc43650f8390b718105ab",
     "name": "Smallest Number in Infinite Set",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design"
+    ],
     "linkName": "smallest-number-in-infinite-set",
     "companies": [
       {
@@ -26184,7 +26637,10 @@
     "_id": "640dc67212efe1880e7657c4",
     "name": "Lexicographical Numbers",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Backtracking",
+      "Enumeration"
+    ],
     "linkName": "lexicographical-numbers",
     "companies": [],
     "done": false
@@ -26193,7 +26649,10 @@
     "_id": "640dc73512efe1880e7657e7",
     "name": "Maximum Length of a Concatenated String with Unique Characters",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Backtracking"
+    ],
     "linkName": "maximum-length-of-a-concatenated-string-with-unique-characters",
     "companies": [],
     "done": false
@@ -26202,7 +26661,10 @@
     "_id": "640dc91c28d50e7ec012486f",
     "name": "Interval List Intersections",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Sorting"
+    ],
     "linkName": "interval-list-intersections",
     "companies": [],
     "done": false
@@ -26211,7 +26673,10 @@
     "_id": "640dc989b83e749b522786c7",
     "name": "Break a Palindrome",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "break-a-palindrome",
     "companies": [],
     "done": false
@@ -26220,7 +26685,10 @@
     "_id": "640dc9b0b83e749b522786d4",
     "name": "Shortest Way to Form String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming",
+      "Greedy"
+    ],
     "linkName": "shortest-way-to-form-string",
     "companies": [],
     "done": false
@@ -26229,7 +26697,10 @@
     "_id": "640dc9b5b83e749b522786d8",
     "name": "As Far from Land as Possible",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Breadth-First Search"
+    ],
     "linkName": "as-far-from-land-as-possible",
     "companies": [],
     "done": false
@@ -26238,7 +26709,9 @@
     "_id": "640dc9c6b83e749b522786e4",
     "name": "Strings Differ by One Character",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "strings-differ-by-one-character",
     "companies": [],
     "done": false
@@ -26247,7 +26720,10 @@
     "_id": "640dcb34903ff7bd0b6cef41",
     "name": "Minimum Time to Complete Trips",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Binary Search"
+    ],
     "linkName": "minimum-time-to-complete-trips",
     "companies": [],
     "done": false
@@ -26256,7 +26732,9 @@
     "_id": "640dcbbe88c28e65966d119c",
     "name": "Game Play Analysis IV",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "SQL"
+    ],
     "linkName": "game-play-analysis-iv",
     "companies": [],
     "done": false
@@ -26265,7 +26743,9 @@
     "_id": "640dcd32abf98f02b1271c16",
     "name": "Number of Orders in the Backlog",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Database"
+    ],
     "linkName": "number-of-orders-in-the-backlog",
     "companies": [],
     "done": false
@@ -26275,8 +26755,8 @@
     "name": "Filter Restaurants by Vegan-Friendly, Price and Distance",
     "level": "Medium",
     "categories": [
-      "array",
-      "sorting"
+      "Array",
+      "Sorting"
     ],
     "linkName": "filter-restaurants-by-vegan-friendly-price-and-distance",
     "companies": [
@@ -26294,7 +26774,10 @@
     "_id": "640dc192f12a3834456524ed",
     "name": "Next Permutation",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Sorting"
+    ],
     "linkName": "next-permutation",
     "companies": [
       {
@@ -26311,10 +26794,10 @@
     "name": "Count Nice Pairs in an Array",
     "level": "Medium",
     "categories": [
-      "array",
-      "hash-table",
-      "math",
-      "counting"
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
     ],
     "linkName": "count-nice-pairs-in-an-array",
     "companies": [
@@ -26331,7 +26814,10 @@
     "_id": "640dc2c8fbc2aeb3929f196b",
     "name": "Minimum Time Difference",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Sorting"
+    ],
     "linkName": "minimum-time-difference",
     "companies": [
       {
@@ -26347,7 +26833,10 @@
     "_id": "640dc342fbc2aeb3929f1979",
     "name": "Number of Distinct Islands",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Depth-First Search"
+    ],
     "linkName": "number-of-distinct-islands",
     "companies": [
       {
@@ -26363,7 +26852,10 @@
     "_id": "640dc349fbc2aeb3929f197f",
     "name": "Open the Lock",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Breadth-First Search"
+    ],
     "linkName": "open-the-lock",
     "companies": [
       {
@@ -26379,7 +26871,10 @@
     "_id": "640dc35efbc2aeb3929f198d",
     "name": "Push Dominoes",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Simulation"
+    ],
     "linkName": "push-dominoes",
     "companies": [
       {
@@ -26395,7 +26890,9 @@
     "_id": "640dc366fbc2aeb3929f1993",
     "name": "Construct Binary Tree from Preorder and Postorder Traversal",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree"
+    ],
     "linkName": "construct-binary-tree-from-preorder-and-postorder-traversal",
     "companies": [
       {
@@ -26411,7 +26908,9 @@
     "_id": "640dc42850f8390b71810567",
     "name": "Design File System",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design"
+    ],
     "linkName": "design-file-system",
     "companies": [
       {
@@ -26427,7 +26926,9 @@
     "_id": "640dc43150f8390b7181058b",
     "name": "Buildings With an Ocean View",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array"
+    ],
     "linkName": "buildings-with-an-ocean-view",
     "companies": [
       {
@@ -26443,7 +26944,10 @@
     "_id": "640dc43450f8390b718105a0",
     "name": "Minimum Health to Beat Game",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Simulation"
+    ],
     "linkName": "minimum-health-to-beat-game",
     "companies": [
       {
@@ -26459,7 +26963,10 @@
     "_id": "640dc47750f8390b718105bc",
     "name": "Shuffle an Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Design"
+    ],
     "linkName": "shuffle-an-array",
     "companies": [
       {
@@ -26475,7 +26982,9 @@
     "_id": "640dc47f50f8390b718105c6",
     "name": "Maximum Earnings From Taxi",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-earnings-from-taxi",
     "companies": [
       {
@@ -26491,7 +27000,9 @@
     "_id": "640dc62912efe1880e7657bf",
     "name": "Inorder Successor in BST",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search Tree"
+    ],
     "linkName": "inorder-successor-in-bst",
     "companies": [],
     "done": false
@@ -26500,7 +27011,9 @@
     "_id": "640dc63112efe1880e7657c0",
     "name": "Maximum Product of the Length of Two Palindromic Subsequences",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-product-of-the-length-of-two-palindromic-subsequences",
     "companies": [],
     "done": false
@@ -26509,7 +27022,9 @@
     "_id": "640dc67912efe1880e7657cd",
     "name": "Find Root of N-Ary Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Tree"
+    ],
     "linkName": "find-root-of-n-ary-tree",
     "companies": [],
     "done": false
@@ -26518,7 +27033,10 @@
     "_id": "640dc91928d50e7ec012486b",
     "name": "Convert Binary Search Tree to Sorted Doubly Linked List",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search Tree",
+      "Linked List"
+    ],
     "linkName": "convert-binary-search-tree-to-sorted-doubly-linked-list",
     "companies": [],
     "done": false
@@ -26527,7 +27045,9 @@
     "_id": "640dc96eb83e749b522786c4",
     "name": "Minimum Limit of Balls in a Bag",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "minimum-limit-of-balls-in-a-bag",
     "companies": [],
     "done": false
@@ -26536,7 +27056,10 @@
     "_id": "640dccf3abf98f02b1271c09",
     "name": "Minimize Result by Adding Parentheses to Expression",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Greedy"
+    ],
     "linkName": "minimize-result-by-adding-parentheses-to-expression",
     "companies": [],
     "done": false
@@ -26546,9 +27069,9 @@
     "name": "Longest Subarray of 1's After Deleting One Element",
     "level": "Medium",
     "categories": [
-      "array",
-      "dynamic-programming",
-      "sliding-window"
+      "Array",
+      "Dynamic Programming",
+      "Sliding Window"
     ],
     "linkName": "longest-subarray-of-1s-after-deleting-one-element",
     "companies": [
@@ -26566,7 +27089,9 @@
     "_id": "640dc195f12a3834456524f0",
     "name": "Populating Next Right Pointers in Each Node",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree"
+    ],
     "linkName": "populating-next-right-pointers-in-each-node",
     "companies": [
       {
@@ -26582,7 +27107,10 @@
     "_id": "640dc19df12a383445652503",
     "name": "All Nodes Distance K in Binary Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Breadth-First Search"
+    ],
     "linkName": "all-nodes-distance-k-in-binary-tree",
     "companies": [
       {
@@ -26598,7 +27126,10 @@
     "_id": "640dc19ef12a383445652507",
     "name": "Shortest Bridge",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Breadth-First Search"
+    ],
     "linkName": "shortest-bridge",
     "companies": [
       {
@@ -26614,7 +27145,9 @@
     "_id": "640dc272fbc2aeb3929f1955",
     "name": "Paint House",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "paint-house",
     "companies": [
       {
@@ -26630,7 +27163,10 @@
     "_id": "640dc283fbc2aeb3929f1960",
     "name": "Largest BST Subtree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Depth-First Search"
+    ],
     "linkName": "largest-bst-subtree",
     "companies": [
       {
@@ -26646,7 +27182,9 @@
     "_id": "640dc34ffbc2aeb3929f1985",
     "name": "Domino and Tromino Tiling",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "domino-and-tromino-tiling",
     "companies": [
       {
@@ -26662,7 +27200,9 @@
     "_id": "640dc42a50f8390b7181056e",
     "name": "K-Concatenation Maximum Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "k-concatenation-maximum-sum",
     "companies": [
       {
@@ -26678,7 +27218,10 @@
     "_id": "640dc43250f8390b71810593",
     "name": "Most Beautiful Item for Each Query",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Sorting"
+    ],
     "linkName": "most-beautiful-item-for-each-query",
     "companies": [
       {
@@ -26694,7 +27237,9 @@
     "_id": "640dc43650f8390b718105a8",
     "name": "Longest Binary Subsequence Less Than or Equal to K",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "longest-binary-subsequence-less-than-or-equal-to-k",
     "companies": [
       {
@@ -26710,7 +27255,9 @@
     "_id": "640dc47c50f8390b718105c0",
     "name": "Bag of Tokens",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "bag-of-tokens",
     "companies": [
       {
@@ -26726,7 +27273,10 @@
     "_id": "640dc6b612efe1880e7657db",
     "name": "Smallest Range II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Math"
+    ],
     "linkName": "smallest-range-ii",
     "companies": [],
     "done": false
@@ -26735,7 +27285,9 @@
     "_id": "640dc75312efe1880e7657ee",
     "name": "Design Phone Directory",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design"
+    ],
     "linkName": "design-phone-directory",
     "companies": [],
     "done": false
@@ -26744,7 +27296,9 @@
     "_id": "640dc91d28d50e7ec0124872",
     "name": "Diagonal Traverse II",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix"
+    ],
     "linkName": "diagonal-traverse-ii",
     "companies": [],
     "done": false
@@ -26753,7 +27307,9 @@
     "_id": "640dcb33903ff7bd0b6cef3b",
     "name": "Count Words Obtained After Adding a Letter",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "count-words-obtained-after-adding-a-letter",
     "companies": [],
     "done": false
@@ -26762,7 +27318,9 @@
     "_id": "640dcc82312e5dc5b4edd1b4",
     "name": "Longest Arithmetic Subsequence",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "longest-arithmetic-subsequence",
     "companies": [],
     "done": false
@@ -26771,7 +27329,10 @@
     "_id": "640dcc85312e5dc5b4edd1b8",
     "name": "Minimum Deletions to Make String Balanced",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String",
+      "Greedy"
+    ],
     "linkName": "minimum-deletions-to-make-string-balanced",
     "companies": [],
     "done": false
@@ -26780,7 +27341,9 @@
     "_id": "640dcce3abf98f02b1271c06",
     "name": "Time Needed to Rearrange a Binary String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "time-needed-to-rearrange-a-binary-string",
     "companies": [],
     "done": false
@@ -26789,7 +27352,9 @@
     "_id": "640dcd02abf98f02b1271c0c",
     "name": "Restaurant Growth",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "restaurant-growth",
     "companies": [],
     "done": false
@@ -26798,7 +27363,9 @@
     "_id": "640dcd1aabf98f02b1271c11",
     "name": "Maximum Alternating Subsequence Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "maximum-alternating-subsequence-sum",
     "companies": [],
     "done": false
@@ -26807,7 +27374,10 @@
     "_id": "640dc217fbc2aeb3929f1942",
     "name": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph",
+      "Depth-First Search"
+    ],
     "linkName": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
     "companies": [
       {
@@ -26823,7 +27393,9 @@
     "_id": "640dc2c7fbc2aeb3929f196a",
     "name": "Convert BST to Greater Tree",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search Tree"
+    ],
     "linkName": "convert-bst-to-greater-tree",
     "companies": [
       {
@@ -26839,7 +27411,10 @@
     "_id": "640dc354fbc2aeb3929f1989",
     "name": "Most Profit Assigning Work",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy",
+      "Dynamic Programming"
+    ],
     "linkName": "most-profit-assigning-work",
     "companies": [
       {
@@ -26855,7 +27430,10 @@
     "_id": "640dc42950f8390b7181056a",
     "name": "Minimum Knight Moves",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "BFS",
+      "Graph"
+    ],
     "linkName": "minimum-knight-moves",
     "companies": [
       {
@@ -26871,7 +27449,10 @@
     "_id": "640dc43050f8390b71810586",
     "name": "Design an Expression Tree With Evaluate Function",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Design",
+      "Tree"
+    ],
     "linkName": "design-an-expression-tree-with-evaluate-function",
     "companies": [
       {
@@ -26887,7 +27468,9 @@
     "_id": "640dc43350f8390b71810597",
     "name": "Find All Possible Recipes from Given Supplies",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Graph"
+    ],
     "linkName": "find-all-possible-recipes-from-given-supplies",
     "companies": [
       {
@@ -26903,7 +27486,10 @@
     "_id": "640dc43550f8390b718105a6",
     "name": "Partition Array Such That Maximum Difference Is K",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Greedy"
+    ],
     "linkName": "partition-array-such-that-maximum-difference-is-k",
     "companies": [
       {
@@ -26919,7 +27505,10 @@
     "_id": "640dc81f48cdc07fdba84d58",
     "name": "Binary Tree Longest Consecutive Sequence",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Tree",
+      "Depth-First Search"
+    ],
     "linkName": "binary-tree-longest-consecutive-sequence",
     "companies": [],
     "done": false
@@ -26928,7 +27517,9 @@
     "_id": "640dc9a9b83e749b522786cf",
     "name": "Find And Replace in String",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "String"
+    ],
     "linkName": "find-and-replace-in-string",
     "companies": [],
     "done": false
@@ -26937,7 +27528,10 @@
     "_id": "640dc9cab83e749b522786e7",
     "name": "Path With Minimum Effort",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Matrix",
+      "Binary Search"
+    ],
     "linkName": "path-with-minimum-effort",
     "companies": [],
     "done": false
@@ -26946,7 +27540,10 @@
     "_id": "640dcb31903ff7bd0b6cef31",
     "name": "Frequency of the Most Frequent Element",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Greedy"
+    ],
     "linkName": "frequency-of-the-most-frequent-element",
     "companies": [],
     "done": false
@@ -26955,7 +27552,9 @@
     "_id": "640dcb37903ff7bd0b6cef4e",
     "name": "Strictly Palindromic Number",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "strictly-palindromic-number",
     "companies": [],
     "done": false
@@ -26964,7 +27563,9 @@
     "_id": "640dcc85312e5dc5b4edd1b9",
     "name": "Ways to Split Array Into Three Subarrays",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "ways-to-split-array-into-three-subarrays",
     "companies": [],
     "done": false
@@ -26973,7 +27574,9 @@
     "_id": "640dcd2babf98f02b1271c15",
     "name": "Subsequence of Size K With the Largest Even Sum",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Dynamic Programming"
+    ],
     "linkName": "subsequence-of-size-k-with-the-largest-even-sum",
     "companies": [],
     "done": false
@@ -26982,7 +27585,9 @@
     "_id": "640dc192f12a3834456524ee",
     "name": "Find First and Last Position of Element in Sorted Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search"
+    ],
     "linkName": "find-first-and-last-position-of-element-in-sorted-array",
     "companies": [
       {
@@ -26998,7 +27603,10 @@
     "_id": "640dc369fbc2aeb3929f1996",
     "name": "Snakes and Ladders",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "BFS",
+      "Graph"
+    ],
     "linkName": "snakes-and-ladders",
     "companies": [
       {
@@ -27014,7 +27622,9 @@
     "_id": "640dc43150f8390b7181058c",
     "name": "Single-Threaded CPU",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Simulation"
+    ],
     "linkName": "single-threaded-cpu",
     "companies": [
       {
@@ -27030,7 +27640,10 @@
     "_id": "640dc43550f8390b718105a5",
     "name": "Steps to Make Array Non-decreasing",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Dynamic Programming"
+    ],
     "linkName": "steps-to-make-array-non-decreasing",
     "companies": [
       {
@@ -27046,7 +27659,9 @@
     "_id": "640dc43750f8390b718105b2",
     "name": "Minimum Adjacent Swaps to Make a Valid Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Greedy"
+    ],
     "linkName": "minimum-adjacent-swaps-to-make-a-valid-array",
     "companies": [
       {
@@ -27062,7 +27677,10 @@
     "_id": "640dc69512efe1880e7657d8",
     "name": "Minimum Sideway Jumps",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Array",
+      "Dynamic Programming"
+    ],
     "linkName": "minimum-sideway-jumps",
     "companies": [],
     "done": false
@@ -27071,7 +27689,10 @@
     "_id": "640dc91b28d50e7ec012486e",
     "name": "Minimum Area Rectangle",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math",
+      "Geometry"
+    ],
     "linkName": "minimum-area-rectangle",
     "companies": [],
     "done": false
@@ -27080,7 +27701,9 @@
     "_id": "640dc9c2b83e749b522786e2",
     "name": "Minimum Difference Between Largest and Smallest Value in Three Moves",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
     "companies": [],
     "done": false
@@ -27089,7 +27712,9 @@
     "_id": "640dcb9f88c28e65966d1197",
     "name": "Number of Times Binary String Is Prefix-Aligned",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Bit Manipulation"
+    ],
     "linkName": "number-of-times-binary-string-is-prefix-aligned",
     "companies": [],
     "done": false
@@ -27098,7 +27723,9 @@
     "_id": "640dcbd288c28e65966d11a1",
     "name": "Search in a Sorted Array of Unknown Size",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Binary Search"
+    ],
     "linkName": "search-in-a-sorted-array-of-unknown-size",
     "companies": [],
     "done": false
@@ -27107,7 +27734,9 @@
     "_id": "640dcccfabf98f02b1271c04",
     "name": "Maximum Value at a Given Index in a Bounded Array",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "maximum-value-at-a-given-index-in-a-bounded-array",
     "companies": [],
     "done": false
@@ -27116,7 +27745,9 @@
     "_id": "640dcd43abf98f02b1271c19",
     "name": "Count the Number of Experiments",
     "level": "Medium",
-    "categories": [],
+    "categories": [
+      "Math"
+    ],
     "linkName": "count-the-number-of-experiments",
     "companies": [],
     "done": false
