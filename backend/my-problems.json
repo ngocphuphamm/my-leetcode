@@ -26657,7 +26657,8 @@
         "percentage": "17"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43650f8390b718105ab",
@@ -26711,7 +26712,8 @@
     ],
     "linkName": "interval-list-intersections",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc989b83e749b522786c7",
@@ -26723,7 +26725,8 @@
     ],
     "linkName": "break-a-palindrome",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc9b0b83e749b522786d4",
@@ -26758,7 +26761,8 @@
     ],
     "linkName": "strings-differ-by-one-character",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcb34903ff7bd0b6cef41",
@@ -26812,7 +26816,8 @@
         "percentage": "100"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc192f12a3834456524ed",
