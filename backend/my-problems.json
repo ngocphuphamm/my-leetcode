@@ -24649,7 +24649,8 @@
     ],
     "linkName": "maximum-white-tiles-covered-by-a-carpet",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcc0388c28e65966d11aa",
@@ -24660,7 +24661,8 @@
     ],
     "linkName": "shortest-word-distance-iii",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a138778e0a96c7af5fdc5d",
@@ -24753,7 +24755,8 @@
         "percentage": "27"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc368fbc2aeb3929f1995",
@@ -24821,7 +24824,8 @@
     ],
     "linkName": "range-addition",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc70e12efe1880e7657e2",
@@ -24854,7 +24858,8 @@
     ],
     "linkName": "move-pieces-to-obtain-a-string",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcbd888c28e65966d11a3",
