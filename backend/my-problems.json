@@ -26018,7 +26018,8 @@
         "percentage": "66"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc2c5fbc2aeb3929f1969",
@@ -26055,7 +26056,8 @@
         "percentage": "22"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc36afbc2aeb3929f1997",
@@ -26074,7 +26076,8 @@
         "percentage": "18"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc42b50f8390b71810574",
@@ -26133,7 +26136,8 @@
     ],
     "linkName": "minimum-time-to-make-rope-colorful",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc9a7b83e749b522786cd",
@@ -26178,7 +26182,8 @@
     ],
     "linkName": "minimum-suffix-flips",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc183f12a3834456524ea",
