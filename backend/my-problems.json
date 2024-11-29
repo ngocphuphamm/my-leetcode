@@ -23698,7 +23698,8 @@
         "percentage": "18"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcba588c28e65966d1198",
@@ -23733,7 +23734,8 @@
     ],
     "linkName": "exam-room",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcd47abf98f02b1271c1a",
@@ -23745,7 +23747,8 @@
     ],
     "linkName": "smallest-value-of-the-rearranged-number",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a138918e0a96c7af5fdc87",
@@ -23818,7 +23821,8 @@
         "percentage": "29"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc30ffbc2aeb3929f196e",
@@ -24004,7 +24008,8 @@
         "percentage": "69"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43350f8390b71810596",
