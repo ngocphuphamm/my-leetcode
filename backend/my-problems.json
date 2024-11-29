@@ -24039,7 +24039,8 @@
     ],
     "linkName": "count-strictly-increasing-subarrays",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc9b3b83e749b522786d6",
@@ -24338,7 +24339,8 @@
     ],
     "linkName": "removing-minimum-number-of-magic-beans",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcbf988c28e65966d11a8",
@@ -24349,7 +24351,8 @@
     ],
     "linkName": "maximum-points-in-an-archery-competition",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcc80312e5dc5b4edd1b3",
