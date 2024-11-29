@@ -25088,7 +25088,8 @@
         "percentage": "40"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43750f8390b718105b3",
@@ -25106,7 +25107,8 @@
         "percentage": "7"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc47d50f8390b718105c2",
@@ -25173,7 +25175,8 @@
     ],
     "linkName": "wiggle-sort",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dcd50abf98f02b1271c1b",
@@ -25223,7 +25226,8 @@
         "percentage": "72"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc1a1f12a383445652512",
@@ -25314,7 +25318,8 @@
         "percentage": "18"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43350f8390b71810594",
