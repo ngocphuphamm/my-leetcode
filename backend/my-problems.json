@@ -25788,7 +25788,8 @@
         "percentage": "32"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc42b50f8390b71810572",
@@ -25825,7 +25826,8 @@
         "percentage": "8"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc43750f8390b718105b0",
@@ -25955,7 +25957,8 @@
     ],
     "linkName": "minimum-number-of-frogs-croaking",
     "companies": [],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "63a138788e0a96c7af5fdc62",
@@ -25975,7 +25978,8 @@
         "alias": "uber"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc191f12a3834456524ec",
@@ -25994,7 +25998,8 @@
         "percentage": "2"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc26cfbc2aeb3929f1954",
