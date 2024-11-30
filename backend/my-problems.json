@@ -27381,7 +27381,7 @@
     "linkName": "count-words-obtained-after-adding-a-letter",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dcc82312e5dc5b4edd1b4",
@@ -27404,8 +27404,8 @@
     ],
     "linkName": "minimum-deletions-to-make-string-balanced",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-11-30T22:30:27.371Z"
   },
   {
     "_id": "640dcce3abf98f02b1271c06",
@@ -27417,7 +27417,7 @@
     "linkName": "time-needed-to-rearrange-a-binary-string",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dcd02abf98f02b1271c0c",
@@ -27571,7 +27571,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dc81f48cdc07fdba84d58",
