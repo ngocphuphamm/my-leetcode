@@ -6826,7 +6826,8 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2,
+    "completedAt": null
   },
   {
     "_id": "63a137608e0a96c7af5fd858",
@@ -8500,7 +8501,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "63a137698e0a96c7af5fd8bb",
@@ -8575,8 +8576,9 @@
         "percentage": "16.2917%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "priority": 1,
+    "completedAt": "2024-11-30T17:52:54.857Z"
   },
   {
     "_id": "63a137618e0a96c7af5fd866",
