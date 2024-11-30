@@ -141,8 +141,8 @@ const ProblemsList = () => {
     return [...problems].sort((a, b) => {
       switch (sortBy) {
         case 'priority':
-          // Sort by priority (3 -> 2 -> 1 -> no priority)
-          return (b.priority || 0) - (a.priority || 0);
+          // Sort by priority (1 -> 2 -> 3 -> no priority)
+          return (a.priority || 4) - (b.priority || 4);
         case 'status':
           // Sort by completion status (done first)
           return b.done - a.done;

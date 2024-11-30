@@ -9306,8 +9306,8 @@
         "percentage": "37.4054%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-11-30T19:36:36.314Z"
   },
   {
     "_id": "63a1376e8e0a96c7af5fd8fa",
@@ -27746,7 +27746,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dc69512efe1880e7657d8",
@@ -27804,7 +27804,7 @@
     "linkName": "search-in-a-sorted-array-of-unknown-size",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 3
   },
   {
     "_id": "640dcccfabf98f02b1271c04",
