@@ -27003,8 +27003,7 @@
         "percentage": "13"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "640dc43450f8390b718105a0",
@@ -27116,8 +27115,8 @@
     ],
     "linkName": "minimum-limit-of-balls-in-a-bag",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-01T16:51:44.192Z"
   },
   {
     "_id": "640dccf3abf98f02b1271c09",
@@ -27298,8 +27297,8 @@
         "percentage": "23"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-01T15:29:32.910Z"
   },
   {
     "_id": "640dc43650f8390b718105a8",
