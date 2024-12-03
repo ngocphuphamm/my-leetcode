@@ -26420,8 +26420,9 @@
     ],
     "linkName": "minimum-deletions-to-make-character-frequencies-unique",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "priority": 1,
+    "completedAt": "2024-12-03T14:54:02.703Z"
   },
   {
     "_id": "640dc91a28d50e7ec012486c",
@@ -26519,8 +26520,8 @@
         "percentage": "0"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-03T14:03:29.651Z"
   },
   {
     "_id": "640dc19ef12a383445652508",
@@ -26614,8 +26615,8 @@
         "percentage": "17"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-03T13:27:36.901Z"
   },
   {
     "_id": "640dc42650f8390b7181055b",
@@ -26652,8 +26653,8 @@
         "percentage": "22"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-02T14:02:42.752Z"
   },
   {
     "_id": "640dc43250f8390b71810590",
