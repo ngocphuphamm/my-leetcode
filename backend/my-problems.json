@@ -26090,8 +26090,8 @@
         "percentage": "18"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-03T17:19:33.224Z"
   },
   {
     "_id": "640dc42b50f8390b71810574",
