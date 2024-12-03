@@ -26150,8 +26150,8 @@
     ],
     "linkName": "minimum-time-to-make-rope-colorful",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-03T16:24:24.399Z"
   },
   {
     "_id": "640dc9a7b83e749b522786cd",
@@ -26196,8 +26196,8 @@
     ],
     "linkName": "minimum-suffix-flips",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-03T15:36:03.371Z"
   },
   {
     "_id": "640dc183f12a3834456524ea",
@@ -26384,8 +26384,7 @@
         "percentage": "84"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "640dc64f12efe1880e7657c2",
