@@ -11626,8 +11626,8 @@
         "percentage": "27.1042%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-06T18:22:06.429Z"
   },
   {
     "_id": "63a137728e0a96c7af5fd922",
@@ -11758,8 +11758,8 @@
         "percentage": "5.33863%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-06T18:45:52.693Z"
   },
   {
     "_id": "63a137738e0a96c7af5fd930",
@@ -11849,8 +11849,9 @@
         "percentage": "22.4397%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "priority": 1,
+    "completedAt": "2024-12-06T19:49:26.139Z"
   },
   {
     "_id": "63a1376f8e0a96c7af5fd902",
