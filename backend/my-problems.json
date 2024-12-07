@@ -12250,8 +12250,8 @@
         "percentage": "8.26601%;"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-07T10:00:41.861Z"
   },
   {
     "_id": "63a1377e8e0a96c7af5fd99f",
@@ -19477,8 +19477,8 @@
         "alias": "grab"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-07T11:17:53.000Z"
   },
   {
     "_id": "63a137bc8e0a96c7af5fda8e",
@@ -22544,8 +22544,9 @@
         "alias": "microsoft"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "priority": 1,
+    "completedAt": "2024-12-07T11:36:26.935Z"
   },
   {
     "_id": "63a138078e0a96c7af5fdba8",
