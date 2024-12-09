@@ -24525,8 +24525,8 @@
         "percentage": "5"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-09T17:53:19.784Z"
   },
   {
     "_id": "640dc43450f8390b7181059b",
