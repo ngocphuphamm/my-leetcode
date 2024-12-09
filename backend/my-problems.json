@@ -23805,8 +23805,8 @@
         "percentage": "93"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-09T14:11:59.432Z"
   },
   {
     "_id": "640dc285fbc2aeb3929f1962",
@@ -24168,8 +24168,7 @@
         "percentage": "15"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "640dc27dfbc2aeb3929f195c",
@@ -24243,8 +24242,8 @@
         "percentage": "42"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-08T06:32:34.873Z"
   },
   {
     "_id": "640dc364fbc2aeb3929f1992",
@@ -24344,7 +24343,7 @@
     "linkName": "removing-minimum-number-of-magic-beans",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dcbf988c28e65966d11a8",
@@ -24356,7 +24355,7 @@
     "linkName": "maximum-points-in-an-archery-competition",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dcc80312e5dc5b4edd1b3",
@@ -24471,8 +24470,9 @@
         "percentage": "91"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "priority": 1,
+    "completedAt": "2024-12-09T15:23:44.033Z"
   },
   {
     "_id": "640dc36ffbc2aeb3929f199b",
