@@ -25040,7 +25040,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dc43150f8390b7181058d",
@@ -25078,7 +25078,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dc43550f8390b718105a4",
@@ -25097,7 +25097,7 @@
       }
     ],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dc43750f8390b718105b3",
@@ -25115,8 +25115,8 @@
         "percentage": "7"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-11T06:05:31.403Z"
   },
   {
     "_id": "640dc47d50f8390b718105c2",
