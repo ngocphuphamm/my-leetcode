@@ -23751,7 +23751,7 @@
     "linkName": "smallest-value-of-the-rearranged-number",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "63a138918e0a96c7af5fdc87",
@@ -24667,8 +24667,7 @@
     ],
     "linkName": "shortest-word-distance-iii",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "63a138778e0a96c7af5fdc5d",
@@ -24761,8 +24760,7 @@
         "percentage": "27"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "640dc368fbc2aeb3929f1995",
@@ -24800,8 +24798,8 @@
         "percentage": "26"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-11T04:01:43.435Z"
   },
   {
     "_id": "640dc43450f8390b7181059c",
