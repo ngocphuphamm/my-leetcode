@@ -24562,8 +24562,8 @@
         "percentage": "18"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-11T04:00:55.305Z"
   },
   {
     "_id": "640dc67512efe1880e7657c7",
@@ -24575,8 +24575,8 @@
     ],
     "linkName": "longest-mountain-in-array",
     "companies": [],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-11T04:00:49.434Z"
   },
   {
     "_id": "640dc67712efe1880e7657c9",
@@ -24656,7 +24656,7 @@
     "linkName": "maximum-white-tiles-covered-by-a-carpet",
     "companies": [],
     "done": false,
-    "priority": 1
+    "priority": 2
   },
   {
     "_id": "640dcc0388c28e65966d11aa",
