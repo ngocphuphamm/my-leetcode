@@ -25442,8 +25442,8 @@
         "percentage": "24"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-12T04:52:57.869Z"
   },
   {
     "_id": "640dc23afbc2aeb3929f1945",
@@ -25500,8 +25500,8 @@
         "percentage": "26"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-12T06:15:12.642Z"
   },
   {
     "_id": "640dc42750f8390b7181055f",
@@ -25519,8 +25519,7 @@
         "percentage": "14"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": false
   },
   {
     "_id": "640dc42c50f8390b71810577",
@@ -25986,8 +25985,8 @@
         "alias": "uber"
       }
     ],
-    "done": false,
-    "priority": 1
+    "done": true,
+    "completedAt": "2024-12-12T02:58:00.482Z"
   },
   {
     "_id": "640dc191f12a3834456524ec",
