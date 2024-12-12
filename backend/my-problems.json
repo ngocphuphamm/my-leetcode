@@ -23837,7 +23837,8 @@
       }
     ],
     "done": true,
-    "completedAt": "2024-12-12T10:55:43.221Z"
+    "completedAt": "2024-12-12T10:55:43.221Z",
+    "priority": 1
   },
   {
     "_id": "640dc30ffbc2aeb3929f196e",
@@ -27333,7 +27334,8 @@
         "percentage": "40"
       }
     ],
-    "done": false
+    "done": false,
+    "priority": 1
   },
   {
     "_id": "640dc6b612efe1880e7657db",
